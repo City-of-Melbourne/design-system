@@ -7,7 +7,7 @@
     <title>Design System - CoM</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   
-    <link rel="stylesheet" href="{{ "/assets/css/auto-complete.css" | prepend: site.github.url}} ">
+    
     <script src="{{ "/assets/js/auto-complete.js" | prepend: site.github.url}} "></script>    
     <script defer src="{{ "/assets/js/search.js" | prepend: site.github.url}} "></script>
     <script src="{{ "/assets/js/lunr.min.js" | prepend: site.github.url}} "></script>
@@ -117,7 +117,8 @@
     },
       onSelect: function(e, term, item){          
         
-       window.location.href =  document.getElementById("siteUrl").value + item.getAttribute('data-url')  + item.getAttribute('data-url') ; 
+       window.location.href =  document.getElementById("siteUrl").value + item.getAttribute('data-url') ; 
+        
       }
     });
    

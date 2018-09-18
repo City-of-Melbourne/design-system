@@ -1,9 +1,10 @@
 (function() {
   function displaySearchResults(results, store) {
     var searchResults = document.getElementById('search-results');
+     var searchTerm = getQueryVariable('query')
 
     if (results.length) { // Are there any results?
-      var appendString = '';
+      var appendString = '<li>Your search for <b>"'+searchTerm+'"</b> returned '+results.length+' results</li>';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];

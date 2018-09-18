@@ -157,12 +157,15 @@ nav.navbar {
 }
 // auto complete
   .autocomplete-suggestions {
+    
     text-align: left; 
-    cursor: default; 
-    border: 1px solid #ccc; 
+    cursor: pointer; 
+    border: 1px solid $color-silver-gray; 
     border-top: 0; 
-    background: #fff; 
+    background: $color-white; 
     box-shadow: -1px 1px 3px rgba(0,0,0,.1);
+    width: auto;
+    
     /* core styles should not be changed */
     position: absolute; 
     display: none; 
@@ -172,6 +175,7 @@ nav.navbar {
     overflow-y: auto; 
     box-sizing: border-box;
 }
+
 .autocomplete-suggestion { 
   position: relative; 
   padding: 0 .6em; 
@@ -183,18 +187,20 @@ nav.navbar {
   color: $color-vanta-black; }
 .autocomplete-suggestion b { 
   font-weight: normal; 
-  color: #1f8dd6; 
+  color: $color-primary-blue; 
 }
-.autocomplete-suggestion.selected { background: #f0f0f0; }
+.autocomplete-suggestion.selected { background: $color-light-gray; }
 
-.search-results-container{ 
-  
+.search-results-container{   
   ul {
-    list-style: none;
+      list-style: none; 
   }
-  
+  h3{
+     font-size: 14px;
+     color: $color-primary-blue;
+     font-weight: normal;
+  }
 }
-
 
 .markdown .design-system * {
   // reset stuff for html within markdown
