@@ -1,38 +1,7 @@
 @import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css');
-
-//VARIABLES
-$topnavbar-height: 50px;//WHITES
-
-//COLORS
-
-$color-white: #FFFFFF;
-
-//PRIMARY
-$color-primary-blue: #277BB4;
-$color-primary-green: #008850;
-$color-primary-red: #E50E56;
-
-//SECONDARY
-$color-secondary-blue: #244566;
-
-
-//GRAYS
-$color-light-gray: #F2F3F4;
-$color-silver-gray: #D4D6DB;
-$color-gray: #989EAB;
-$color-medium-gray: #5D616C;
-$color-dark-gray: #3C404B;
-
-//BLACKS
-$color-vanta-black: #000000;
-$color-super-black: #080809;
-$color-carbon-black: #23242B;
-
-// BACKGROUND COLOURS
-$color-background-blue: #CBE3EF;
-$color-background-green: #E1ECC6;
-
+@import "dci-colours";
+@import "dci-buttons";
 
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
@@ -42,7 +11,6 @@ html, body {
     line-height: 1.5;
     overflow-y: hidden;
 }
-
 
 //h5 { }
 //h6 { }
@@ -242,66 +210,4 @@ nav.navbar {
       color: $color-medium-gray;
     }
   }
-}
-
-// DCI Examples
-.dci-button {
-  background-color: $color-primary-blue;
-  border-radius: 5px;
-  border: 0;
-  color: $color-white;
-  cursor: pointer;
-  font-family: inherit;
-  font-size: 20px;
-  font-weight: 400;
-  height: 54px;
-  margin: 20px 0 28px 0;
-  padding: 0;
-  text-align: center;
-  width: 180px;
-  // TODO: remove after turning bulma off
-  -webkit-font-smoothing: initial;
-}
-
-.dci-button--disabled {
-  cursor: default;
-}
-
-.dci-button--primary {
-  background-color: $color-primary-red;
-}
-
-.dci-button--secondary.dci-button--disabled {
-  color: $color-white;
-  background-color: $color-background-blue;
-}
-
-.dci-button--tertiary {
-  background-color: $color-silver-gray;
-  color: $color-carbon-black;
-}
-
-.dci-button--quarternary {
-  background-color: $color-white;
-  color: $color-primary-blue;
-  border: 1px solid $color-primary-blue;
-}
-
-.dci-button--toggle {
-  width: 70px;
-  background-color: $color-silver-gray;
-  color: $color-carbon-black;
-}
-
-.dci-button--got-it {
-  background-color: $color-background-green;
-  background-image: url(/assets/img/dci-checked-yes.png);
-  background-position: 90px 12px;
-  background-repeat: no-repeat;
-  background-size: 30px;
-  color: $color-primary-green;
-  padding-left: 1em;
-  padding-right: 40px;
-  text-align: left;
-  width: 140px;
 }
