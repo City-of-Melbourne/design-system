@@ -5,7 +5,7 @@ title: Accordion help
 
 TODO: Add description
 
-## On page loaded, closed
+### On page loaded, closed
 
 Original state:
 
@@ -15,6 +15,6 @@ Additional mouseOver state:
 
 ![Accordion Hover](img/accordion_hover.png)
 
-## Open
+### Open
 
 ![Accordion Open](img/accordion_open.png)
