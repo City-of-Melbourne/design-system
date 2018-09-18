@@ -3,8 +3,6 @@ layout: default
 title: Address validation + Google API
 ---
 
-## What is it?
-
 ## Address - Google match method
 
 ### 1.Enter a location typing an address
