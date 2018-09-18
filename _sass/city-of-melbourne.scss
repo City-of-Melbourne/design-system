@@ -28,6 +28,9 @@ $color-vanta-black: #000000;
 $color-super-black: #080809;
 $color-carbon-black: #23242B;
 
+// BACKGROUND COLOURS
+$color-background-blue: #CBE3EF;
+
 
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
@@ -151,7 +154,7 @@ nav.navbar {
     color: $color-carbon-black;
     font-weight: normal;
   }
-  
+
   h4 {
     font-size: 14px;
     color: $color-carbon-black;
@@ -160,7 +163,6 @@ nav.navbar {
 }
 // auto complete
   .autocomplete-suggestions {
-    
     text-align: left; 
     cursor: pointer; 
     border: 1px solid $color-silver-gray; 
@@ -170,15 +172,14 @@ nav.navbar {
     width: auto;
     
     /* core styles should not be changed */
-    position: absolute; 
-    display: none; 
-    z-index: 9999; 
-    max-height: 254px; 
-    overflow: hidden; 
-    overflow-y: auto; 
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    max-height: 254px;
+    overflow: hidden;
+    overflow-y: auto;
     box-sizing: border-box;
 }
-
 .autocomplete-suggestion { 
   position: relative; 
   padding: 0 .6em; 
@@ -241,3 +242,51 @@ nav.navbar {
   }
 }
 
+// DCI Examples
+.dci-button {
+  background-color: $color-primary-blue;
+  border-radius: 5px;
+  border: 0;
+  color: $color-white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  height: 54px;
+  margin: 20px 0 28px 0;
+  padding: 0;
+  text-align: center;
+  width: 180px;
+  // TODO: remove after turning bulma off
+  -webkit-font-smoothing: initial;
+}
+
+.dci-button--disabled {
+  cursor: default;
+}
+
+.dci-button--primary {
+  background-color: $color-primary-red;
+}
+
+.dci-button--secondary.dci-button--disabled {
+  color: $color-white;
+  background-color: $color-background-blue;
+}
+
+.dci-button--tertiary {
+  background-color: $color-silver-gray;
+  color: $color-carbon-black;
+}
+
+.dci-button--quarternary {
+  background-color: $color-white;
+  color: $color-primary-blue;
+  border: 1px solid $color-primary-blue;
+}
+
+.dci-button--toggle {
+  width: 70px;
+  background-color: $color-silver-gray;
+  color: $color-carbon-black;
+}
