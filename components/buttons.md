@@ -54,24 +54,25 @@ On selecting 'yes' the green 'Got it' state is displayed. This can trigger other
 
 Design debt on colouring
 
-![](img/toggle.png)
-
 <div class="dci">
   <button class="dci-button dci-button--toggle">
     Yes
   </button>
   &nbsp;
   <button class="dci-button dci-button--toggle">
-    Not<br>sure
+    Not sure
+  </button>
+  <br>
+  <button class="dci-button dci-button--got-it">
+    Got it
   </button>
 </div>
 
-
-TODO: remove dev notes?
 ## Dev notes
 
-### Reference
-[https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti](https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti)
+### Reference Sites
+- [https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti](https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti)
+- [https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringementreview](https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringementreview)
 
 ### CSS Pulled form
 - [dev01.dev.services.melbourne.vic.gov.au/css/site.css](dev01.dev.services.melbourne.vic.gov.au/css/site.css)

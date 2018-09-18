@@ -16,6 +16,7 @@ $color-primary-red: #E50E56;
 //SECONDARY
 $color-secondary-blue: #244566;
 
+
 //GRAYS
 $color-light-gray: #F2F3F4;
 $color-silver-gray: #D4D6DB;
@@ -30,6 +31,7 @@ $color-carbon-black: #23242B;
 
 // BACKGROUND COLOURS
 $color-background-blue: #CBE3EF;
+$color-background-green: #E1ECC6;
 
 
 html, body {
@@ -289,4 +291,17 @@ nav.navbar {
   width: 70px;
   background-color: $color-silver-gray;
   color: $color-carbon-black;
+}
+
+.dci-button--got-it {
+  background-color: $color-background-green;
+  background-image: url(/assets/img/dci-checked-yes.png);
+  background-position: 90px 12px;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  color: $color-primary-green;
+  padding-left: 1em;
+  padding-right: 40px;
+  text-align: left;
+  width: 140px;
 }
