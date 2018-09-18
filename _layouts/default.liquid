@@ -47,6 +47,7 @@
 
 </head>
 <body>
+    <input type="hidden"  id="siteUrl" value="{{ site.github.url }}">
     <!-- START NAV -->
     <nav class="navbar is-fixed-top">
         <div class="container">
@@ -115,7 +116,7 @@
     },
       onSelect: function(e, term, item){          
         
-       window.location.href = "{{ "+ item.getAttribute('data-url')+ " | prepend: site.github.url }}" 
+       window.location.href = document.getElementById("siteUrl").value + item.getAttribute('data-url') ; 
       }
     });
    
