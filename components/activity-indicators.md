@@ -5,7 +5,7 @@ title: Activity Indicators
 
 TODO: Add description
 
-## Form progress indicator
+### Form progress indicator
 
 Indicates how many steps there are to complete form. Highlights which step customer is currently on
 
@@ -32,10 +32,10 @@ dci.wizard.css:100
 
 ```
 
-## Progress bar
+### Progress bar
 
 TODO: extract from [patterns/loading-and-processing-indicators.html](patterns/loading-and-processing-indicators.html)
 
-## Loader/Spinner
+### Loader/Spinner
 
 TODO: extract from [patterns/loading-and-processing-indicators.html](patterns/loading-and-processing-indicators.html)
