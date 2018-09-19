@@ -50,17 +50,17 @@ Gotham is the standard typeface used by DCI.
 <div class="design-system">
   <table class="text-sizes">
     <tr>
-    {% include text_size.liquid weight="Regular"  size="24px" copy="Screen title" %}
-    {% include text_size.liquid weight="Regular"  size="20px" copy="service title" %}
+    {% include text_size.liquid weight="Regular"  size="24px" copy="Screen title"     %}
+    {% include text_size.liquid weight="Regular"  size="20px" copy="service title"    %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="Reference number" %}
-    {% include text_size.liquid weight="Bold"     size="16px" copy="01234"  %}
-    {% include text_size.liquid weight="Bold"     size="14px" copy="Subtitle 2"  %}
-    {% include text_size.liquid weight="Bold"     size="14px" copy="Subtitle 2"  %}
-    {% include text_size.liquid weight="Regular"  size="16px" copy="Body copy text"  %}
-    {% include text_size.liquid weight="Regular"  size="14px" copy="Body 2"      %}
-    {% include text_size.liquid weight="Regular"  size="12px" copy="Body 3"      %}
-    {% include text_size.liquid weight="Regular"  size="11px" copy="Body 4"      %}
-    {% include text_size.liquid weight="Bold"     size="20px" copy="Button"      %}
+    {% include text_size.liquid weight="Bold"     size="16px" copy="01234"            %}
+    {% include text_size.liquid weight="Bold"     size="14px" copy="Subtitle 2"       %}
+    {% include text_size.liquid weight="Bold"     size="14px" copy="Subtitle 2"       %}
+    {% include text_size.liquid weight="Regular"  size="16px" copy="Body copy text"   %}
+    {% include text_size.liquid weight="Regular"  size="14px" copy="Body 2"           %}
+    {% include text_size.liquid weight="Regular"  size="12px" copy="Body 3"           %}
+    {% include text_size.liquid weight="Regular"  size="11px" copy="Body 4"           %}
+    {% include text_size.liquid weight="Bold"     size="20px" copy="Button"           %}
   </tr>
   <tr>
     {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline" %}
