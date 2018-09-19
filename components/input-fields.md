@@ -10,22 +10,12 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 ### Input and error
 ![](img/Components_text_input_single_line.png) 
 
-
-### Input
-![](img/single_line_text_field.png) 
-### Error
-![](img/single_line_text_field_error.png)  
-## Single line text field + description - generic text capture
-
 ### What it does 
-- Captures mobile phone numbers, formatted to standard AU mobile numbers
+- Captures text data, un-formatted.
 - Displays error text upon validation rules not met when mandatory and marked as (required)
 
-### Input
-![](img/single_line_text_field_description.png)  
-### Error
-![](img/single_line_text_field_description_error.png) 
 ## Single line text field - mobile phone number capture
+
 ### What it does 
 - Captures mobile phone numbers, formatted to standard AU mobile numbers
 - Displays error text upon validation rules not met when mandatory and marked as (required)
@@ -38,7 +28,7 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 ## Multi-line text field + description - generic text capture
 
 ### What it does 
-- Captures mobile phone numbers, formatted to standard AU mobile numbers
+- Captures any additional alpha numberic data
 - Displays error text upon validation rules not met when mandatory and marked as (required)
 
 ### Input
