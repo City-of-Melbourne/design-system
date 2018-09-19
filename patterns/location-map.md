@@ -11,9 +11,8 @@ Screen flows below show both options under 'how does it work?'
 
 ## How does it work?
 
-### Location: Find on map
 
-__SCREEN 1 - Provide a location using the map__
+### SCREEN 1 - Provide a location using the map
 
 ![](img/find_on_map.png)
 
@@ -29,7 +28,7 @@ The next button is inactive until a valid address from the auto-match is selecte
 
 
 
-__SCREEN 2 - Full screen map - Move map location to pin__
+### SCREEN 2 - Full screen map - Move map location to pin
 
 ![](img/find_on_map_2.png)
 
@@ -52,7 +51,7 @@ Selecting 'Next' takes the user to step 3 'Confirming the data provided'
 
 
 
-__SCREEN 3 - Optionally add location detail__
+### SCREEN 3 - Optionally add location detail
 
 ![](img/find_on_map_3.png)
 
