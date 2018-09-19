@@ -5,7 +5,6 @@ title: Location Map
 
 ## What is it?
 __Presents the customer options top provide a location__
-
 Used for capturing the location of any point of public space within the CoM boundary.
 Customer can choose between using a map or typing an address.
 Screen flows below show both options under 'how does it work?'
