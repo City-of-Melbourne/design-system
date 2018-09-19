@@ -9,7 +9,7 @@ Gotham is the standard typeface used by DCI.
 
 <div class="float">
 
-### Gotham Regular 400
+<h3> Gotham Regular 400 </h3>
 
 <div class="design-system">
   <p class="font-example" style="font-weight: 400;">
@@ -21,7 +21,7 @@ Gotham is the standard typeface used by DCI.
   <br><br>
 </div>
 
-### Gotham Regular Italic 400
+<h3> Gotham Regular Italic 400 </h3>
 
 <div class="design-system">
   <p class="font-example" style="font-weight: 400; font-style:italic;">
@@ -34,7 +34,7 @@ Gotham is the standard typeface used by DCI.
 </div>
 
 
-### Gotham Bold 700
+<h3> Gotham Bold 700 </h3>
 
 <div class="design-system">
   <p class="font-example" style="font-weight: 700;">
@@ -105,15 +105,15 @@ Gotham is the standard typeface used by DCI.
 
 <div class="float">
 
-## Text colours
+<h3> Text colours </h3>
 
-TODO
+<p> TODO </p>
 
-## Line Height
+<h3> Line Height </h3>
 
-TODO
+<p> TODO </p>
 
-## Reference
+<h3> Reference </h3>
 
-TODO: Include a public link to the master guide line (if it exist)
+<p> TODO: Include a public link to the master guide line (if it exist) </p>
 </div>
