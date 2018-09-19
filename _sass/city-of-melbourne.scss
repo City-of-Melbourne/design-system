@@ -1,11 +1,10 @@
 @import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
-
 @import "bulma/sass/utilities/_all";
 @import "bulma/sass/elements/container";
 @import "bulma/sass/components/navbar";
 @import "bulma/sass/grid/columns";
-
 @import "dci-colours";
+@import "dci-typography";
 @import "dci-buttons";
 
 html, body {
@@ -135,7 +134,7 @@ nav.navbar {
   h3 {
     font-size: 16px;
     color: $color-carbon-black;
-    font-weight: normal;
+    font-weight: 700;
   }
 
   h4 {
@@ -226,5 +225,25 @@ nav.navbar {
     .value {
       color: $color-medium-gray;
     }
+  }
+
+  .font-example {
+    font-size: 20px;
+    color: $color-medium-gray;
+    margin-bottom: 0.5em;
+  }
+
+  .text-size {
+    padding-bottom: 14px;
+  }
+
+  .text-size__spec,
+  .text-size__example {
+    padding: 14px;
+  }
+
+  .text-size__spec {
+    font-size: 12px;
+    text-align: right;
   }
 }

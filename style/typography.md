@@ -3,25 +3,74 @@ layout: default
 title: Typography
 ---
 
-**What we're currently using, how's it's used and a reference for future.**
+Gotham is the standard typeface used by DCI.
 
-Columns 1 and 2 show where we are and current usage/application of typographic styles.
-
-Gotham Regular, Bold, Underline are currently used.
+## Typefaces
 
 
-### Current usage (DCI audit June'18)
-![](https://city-of-melbourne.github.io/design-system/style/img/27663978.png)
+### Gotham Regular 400
 
-### Naming convention applied to current usage
-![](https://city-of-melbourne.github.io/design-system/style/img/27663980.png)
+<div class="design-system">
+  <p class="font-example" style="font-weight: 400;">
+    THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+  </p>
+  <p class="font-example" style="font-weight: 400;">
+    the quick brown fox jumps over the lazy dog
+  </p>
+  <br><br>
+</div>
 
-### Target styles as a guide
-![](https://city-of-melbourne.github.io/design-system/style/img/27663979.png)
+### Gotham Regular Italic 400
 
-### Quick reference to [CoM Master Brand guidelines](http://comweb/DoingBusiness/comms/Documents/city-of-melbourne-master-brand-september-2017.pdf) on typography
+<div class="design-system">
+  <p class="font-example" style="font-weight: 400; font-style:italic;">
+    THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+  </p>
+  <p class="font-example" style="font-weight: 400; font-style:italic;">
+    the quick brown fox jumps over the lazy dog
+  </p>
+  <br><br>
+</div>
 
-![](https://city-of-melbourne.github.io/design-system/style/img/27668482.png) ![](https://city-of-melbourne.github.io/design-system/style/img/27668483.png)  
-![](https://city-of-melbourne.github.io/design-system/style/img/27668484.png) ![](https://city-of-melbourne.github.io/design-system/style/img/27668485.png)
 
+### Gotham Bold 700
 
+<div class="design-system">
+  <p class="font-example" style="font-weight: 700;">
+    THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+  </p>
+  <p class="font-example" style="font-weight: 700;">
+    the quick brown fox jumps over the lazy dog
+  </p>
+  <br><br>
+</div>
+
+## Text Styles
+
+<div class="design-system">
+  <table class="text-sizes">
+    {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline" %}
+    {% include text_size.liquid weight="Regular"  size="20px" copy="H2 Headline" %}
+    {% include text_size.liquid weight="Bold"     size="20px" copy="H3 Headline" %}
+    {% include text_size.liquid weight="Bold"     size="16px" copy="Subtitle 1"  %}
+    {% include text_size.liquid weight="Bold"     size="14px" copy="Subtitle 2"  %}
+    {% include text_size.liquid weight="Bold"     size="14px" copy="Subtitle 2"  %}
+    {% include text_size.liquid weight="Regular"  size="16px" copy="Body 1"      %}
+    {% include text_size.liquid weight="Regular"  size="14px" copy="Body 2"      %}
+    {% include text_size.liquid weight="Regular"  size="12px" copy="Body 3"      %}
+    {% include text_size.liquid weight="Regular"  size="11px" copy="Body 4"      %}
+    {% include text_size.liquid weight="Bold"     size="20px" copy="Button"      %}
+  </table>
+</div>
+
+## Text colours
+
+TODO
+
+## Line Height
+
+TODO
+
+## Reference
+
+TODO: Include a public link to the master guide line (if it exist)
