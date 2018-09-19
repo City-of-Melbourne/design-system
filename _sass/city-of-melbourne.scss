@@ -203,9 +203,6 @@ nav.navbar {
 
 // live examples
 .design-system {
-    width: 300px;
-    float: left;
-    positoin: relative;
 
   .colour-chip {
     display: inline-block;
@@ -243,6 +240,7 @@ nav.navbar {
 
   .text-size {
     padding-bottom: 14px;
+    width: 300px;
   }
 
   .text-size__spec,
