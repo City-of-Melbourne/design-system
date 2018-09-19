@@ -29,8 +29,7 @@
         return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
       }
     }
-  }
-  
+  }  
   var searchTerm = getQueryVariable('query');
   if (searchTerm) {
       document.getElementById('search-box').setAttribute("value", searchTerm);

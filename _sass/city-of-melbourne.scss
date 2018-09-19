@@ -1,5 +1,10 @@
 @import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css');
+
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/components/navbar";
+@import "bulma/sass/grid/columns";
+
 @import "dci-colours";
 @import "dci-buttons";
 
@@ -48,7 +53,12 @@ nav.navbar {
 
 .menu {
 	background-color: $color-silver-gray;
-  margin: 10px 10px 0 0;
+    margin: 10px 10px 0 0;
+    ul{
+      list-style: none;
+       margin: 0;
+       padding: 0;
+    }
 }
 
 .menu-container {
@@ -61,11 +71,14 @@ nav.navbar {
   background: $color-gray;
   font-weight: 500;
   padding: 0.7em;
+  margin: 0;
 }
 
 .menu-item,
-.menu-item a {
+.menu-item a {  
   width: 100%;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .menu-item a {
@@ -129,6 +142,10 @@ nav.navbar {
     font-size: 14px;
     color: $color-carbon-black;
     font-weight: normal;
+  }
+  img {
+    height: auto;
+    max-width: 100%;
   }
 }
 // auto complete
