@@ -4,15 +4,17 @@ title: Location Map
 ---
 
 ## What is it?
-__Presents the customer options top provide a location__ <br>
+__Presents the customer options top provide a location.__ <br>
 Used for capturing the location of any point of public space within the CoM boundary.
 Customer can choose between using a map or typing an address.
 Screen flows below show both options under 'how does it work?'
 
-
 ## How does it work?
 
-### Location: Find on map
+
+### SCREEN 1 - Provide a location using the map
+
+![](img/find_on_map.png)
 
 __Method of providing location or address__ <br> 
 Customer is presented with option to provide a known address or location.
@@ -26,20 +28,9 @@ The next button is inactive until a valid address from the auto-match is selecte
 
 
 
-### 1.Provide a location using THE MAP
+### SCREEN 2 - Full screen map - Move map location to pin
 
-__Method of providing location or address__ <br>
-Customer is presented with option to provide a known address or location.
-
-__Buttons__ <br>
-If the screen is the first step in the form, then one button spanning the full width is used - as above.
-If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown.
-
-![](img/find_on_map.png)
-
-
-
-### 2.Full screen map - Move map location to pin
+![](img/find_on_map_2.png)
 
 __The full screen map__ <br>
 On selecting 'Find on map' a full screen map is displayed, with a centered pin. 
@@ -58,10 +49,11 @@ Selecting 'Back' takes the user back to the previous step.
 
 Selecting 'Next' takes the user to step 3 'Confirming the data provided'
 
-![](img/find_on_map_2.png)
 
 
-### 3.Optionally add location detail
+### SCREEN 3 - Optionally add location detail
+
+![](img/find_on_map_3.png)
 
 __Confirming the data provided__ <br>
 This step serves as a check point to review the location they have provided and an opportunity to provide additional written information about the location. 
@@ -72,7 +64,8 @@ Selecting 'Edit' opens the map full screen again.
 -__NO__ location description displays
 And the customer can click 'confirm' to continue through the form
 
-![](img/find_on_map_3.png)
+
+
 
 ## Type an address
 

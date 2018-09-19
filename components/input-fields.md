@@ -12,9 +12,11 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 ### Error
 ![](img/single_line_text_field_error.png)  
 ## Single line text field + description - generic text capture
+
 ### What it does 
 - Captures mobile phone numbers, formatted to standard AU mobile numbers
 - Displays error text upon validation rules not met when mandatory and marked as (required)
+
 ### Input
 ![](img/single_line_text_field_description.png)  
 ### Error
@@ -23,16 +25,21 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 ### What it does 
 - Captures mobile phone numbers, formatted to standard AU mobile numbers
 - Displays error text upon validation rules not met when mandatory and marked as (required)
+
 ### Validation Rules
 - Must start with 04
 - Must be numeric
 - Must contain 10 digits
+
 ## Multi-line text field + description - generic text capture
+
 ### What it does 
 - Captures mobile phone numbers, formatted to standard AU mobile numbers
 - Displays error text upon validation rules not met when mandatory and marked as (required)
+
 ### Input
 ![](img/multiline_text_field.png)  
+
 ### Error
 ## Dropdown list - selection capture
 ### What it does
@@ -47,6 +54,7 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 ## Checkbox list - selection capture
 ### What it does 
 - Captures multiple answers and helps direct the Case to a team or contractor.
+
 ### Input
 ![](img/checklist.png)  
 ### Error
