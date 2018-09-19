@@ -7,9 +7,8 @@ Gotham is the standard typeface used by DCI.
 
 ## Typefaces
 
-<div class="float">
 
-<h3> Gotham Regular 400 </h3>
+### Gotham Regular 400
 
 <div class="design-system">
   <p class="font-example" style="font-weight: 400;">
@@ -21,7 +20,7 @@ Gotham is the standard typeface used by DCI.
   <br><br>
 </div>
 
-<h3> Gotham Regular Italic 400 </h3>
+### Gotham Regular Italic 400
 
 <div class="design-system">
   <p class="font-example" style="font-weight: 400; font-style:italic;">
@@ -34,7 +33,7 @@ Gotham is the standard typeface used by DCI.
 </div>
 
 
-<h3> Gotham Bold 700 </h3>
+### Gotham Bold 700
 
 <div class="design-system">
   <p class="font-example" style="font-weight: 700;">
@@ -44,13 +43,11 @@ Gotham is the standard typeface used by DCI.
     the quick brown fox jumps over the lazy dog
   </p>
   <br><br>
-</div>
-
 </div>
 
 ## Text Styles
 
-<div class="design-system float">
+<div class="design-system">
   <table class="text-sizes">
     {% include text_size.liquid weight="Regular"  size="24px" copy="Screen title"      %}
     {% include text_size.liquid weight="Regular"  size="20px" copy="service title"     %}
@@ -68,7 +65,7 @@ Gotham is the standard typeface used by DCI.
   </table>
 </div>
 
-<div class="design-system float">
+<div class="design-system">
   <table class="text-sizes">
     {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline"       %}
     {% include text_size.liquid weight="Regular"  size="20px" copy="Body 1"            %}
@@ -87,7 +84,7 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Bold"     size="20px" copy="Body 3"            %}
   </table>
 </div>
-<div class="design-system float">
+<div class="design-system">
   <table class="text-sizes">
     {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline" %}
     {% include text_size.liquid weight="Regular"  size="20px" copy="H2 Headline" %}
@@ -103,17 +100,14 @@ Gotham is the standard typeface used by DCI.
 </table>
 </div>
 
-<div class="float">
+## Text colours
 
-<h3> Text colours </h3>
+TODO
 
-<p> TODO </p>
+## Line Height
 
-<h3> Line Height </h3>
+TODO
 
-<p> TODO </p>
+## Reference
 
-<h3> Reference </h3>
-
-<p> TODO: Include a public link to the master guide line (if it exist) </p>
-</div>
+TODO: Include a public link to the master guide line (if it exist)

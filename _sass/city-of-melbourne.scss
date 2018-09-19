@@ -19,10 +19,6 @@ html, body {
 //h5 { }
 //h6 { }
 
-.float {
-  float: left;
-}
-
 nav.navbar {
   background-color: $color-carbon-black;
   height: $topnavbar-height;
@@ -203,7 +199,6 @@ nav.navbar {
 
 // live examples
 .design-system {
-
   .colour-chip {
     display: inline-block;
     width: 160px;
@@ -240,7 +235,6 @@ nav.navbar {
 
   .text-size {
     padding-bottom: 14px;
-    width: 300px;
   }
 
   .text-size__spec,
