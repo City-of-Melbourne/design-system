@@ -17,7 +17,7 @@ __Method of providing location or address__
 
 Customer is presented with option to provide a known address or location.
 
-###### Buttons
+#### Buttons
 If the screen is the first step in the form, then one button spanning the full width is used - as above.
 If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown.
 
