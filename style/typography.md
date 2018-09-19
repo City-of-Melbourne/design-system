@@ -7,6 +7,7 @@ Gotham is the standard typeface used by DCI.
 
 ## Typefaces
 
+<div class="float">
 
 ### Gotham Regular 400
 
@@ -43,6 +44,8 @@ Gotham is the standard typeface used by DCI.
     the quick brown fox jumps over the lazy dog
   </p>
   <br><br>
+</div>
+
 </div>
 
 ## Text Styles
@@ -100,6 +103,8 @@ Gotham is the standard typeface used by DCI.
 </table>
 </div>
 
+<div class="float">
+
 ## Text colours
 
 TODO
@@ -111,3 +116,4 @@ TODO
 ## Reference
 
 TODO: Include a public link to the master guide line (if it exist)
+</div>
