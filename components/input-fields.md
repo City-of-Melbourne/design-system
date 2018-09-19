@@ -7,6 +7,10 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 ## Single line text field - generic text capture
 
+### Input and error
+![](img/Components_text_input_single_line.png) 
+
+
 ### Input
 ![](img/single_line_text_field.png) 
 ### Error
