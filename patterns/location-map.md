@@ -9,7 +9,22 @@ Used for capturing the location of any point of public space within the CoM boun
 Customer can choose between using a map or typing an address.
 Screen flows below show both options under 'how does it work?'
 
-## Find on map
+
+## How does it work?
+
+### Location: Find on map
+
+__Method of providing location or address__ <br> 
+Customer is presented with option to provide a known address or location.
+
+__Buttons__ <br>
+If the screen is the first step in the form, then one button spanning the full width is used - as above.
+If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown. 
+
+__Inactive 'Next' button__ <br>
+The next button is inactive until a valid address from the auto-match is selected.
+
+
 
 ### 1.Provide a location using THE MAP
 
