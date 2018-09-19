@@ -4,7 +4,7 @@ title: Location Map
 ---
 
 ## What is it?
-__Presents the customer options top provide a location__
+__Presents the customer options top provide a location__ <br>
 Used for capturing the location of any point of public space within the CoM boundary.
 Customer can choose between using a map or typing an address.
 Screen flows below show both options under 'how does it work?'
@@ -13,8 +13,7 @@ Screen flows below show both options under 'how does it work?'
 
 ### 1.Provide a location using THE MAP
 
-__Method of providing location or address__
-
+__Method of providing location or address__ <br>
 Customer is presented with option to provide a known address or location.
 
 __Buttons__ <br>
@@ -27,18 +26,16 @@ If the module is a step in the middle of a form flow, then 'Back' and 'Next' but
 
 ### 2.Full screen map - Move map location to pin
 
-__The full screen map__
+__The full screen map__ <br>
 On selecting 'Find on map' a full screen map is displayed, with a centered pin. 
 
 On interaction the the map is movable, the pin remains static. 
 
-__Location services__
-
+__Location services__ <br>
 If location services ON (example above)
 'Go to current location' button IS displayed above the 'Back' and 'Confirm' buttons. 
 
-__If location services are OFF__ 
-
+__If location services are OFF__ <br>
 'Go to current location' button IS NOT displayed above the 'Back' and 'Next' buttons. 
 The map location defaults to the town hall.
 
@@ -51,12 +48,10 @@ Selecting 'Next' takes the user to step 3 'Confirming the data provided'
 
 ### 3.Optionally add location detail
 
-__Confirming the data provided__
-
+__Confirming the data provided__ <br>
 This step serves as a check point to review the location they have provided and an opportunity to provide additional written information about the location. 
 
-__Edit button__
-
+__Edit button__ <br>
 Selecting 'Edit' opens the map full screen again.
 -map image displays
 -__NO__ location description displays
@@ -66,14 +61,12 @@ And the customer can click 'confirm' to continue through the form
 
 ## Type an address
 
-### 1.Provide a location using THE ADDRESS MATCH 
+### 1.Provide a location using the address match 
 
-__Method of providing location or address__
-
+__Method of providing location or address__ <br>
 Customer is presented with option to provide a known address or location.
 
-__Buttons__
-
+__Buttons__ <br>
 If the screen is the first step in the form, then one button spanning the full width is used - as above.
 If the module is a step in the middle of a form flow, then 'Back' and 'Next' buttons are shown. 
 
@@ -81,8 +74,7 @@ If the module is a step in the middle of a form flow, then 'Back' and 'Next' but
 
 ### 2.Matched addresses
 
-__Address matching__
-
+__Address matching__ <br>
 Address input field on typing 5+ characters will attempt to match the typed address string
 
 ### 4.Selection made
