@@ -3,6 +3,10 @@ layout: default
 title: Colours
 ---
 
+Here you'll find both the brand guideline standard colours, as well as colours that have been found across the site, that probably need review.
+
+## Brand guideline colours
+
 ### Primary/ accent colours
 
 <div class="design-system">
@@ -28,7 +32,12 @@ title: Colours
   {% include colour_chip.liquid name="TODO: name" hex="#23242B" rgb="35,36,43"    %}
   {% include colour_chip.liquid name="TODO: name" hex="#3C404B" rgb="60,64,75"    %}
   {% include colour_chip.liquid name="TODO: name" hex="#5D616C" rgb="93,97,108"   %}
-  {% include colour_chip.liquid name="TODO: name" hex="#989EAB" rgb="152,158,171" %}
   {% include colour_chip.liquid name="TODO: name" hex="#D4D6DB" rgb="212,214,219" %}
   {% include colour_chip.liquid name="TODO: name" hex="#F2F3F4" rgb="242,243,244" %}
+</div>
+
+## Other colours in use
+
+<div class="design-system">
+  {% include colour_chip.liquid name="TODO: name" hex="#989EAB" rgb="152,158,171" %}
 </div>
