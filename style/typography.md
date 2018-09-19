@@ -47,6 +47,8 @@ Gotham is the standard typeface used by DCI.
 
 ## Text Styles
 
+### Current usage
+
 <div class="design-system">
   <table class="text-sizes">
     {% include text_size.liquid weight="Regular"  size="24px" copy="Screen title"      %}
@@ -64,6 +66,8 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Bold"     size="20px" copy="Footer text"       %}
   </table>
 </div>
+
+### Naming convention applied to current usage
 
 <div class="design-system">
   <table class="text-sizes">
@@ -84,6 +88,9 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Bold"     size="20px" copy="Body 3"            %}
   </table>
 </div>
+
+### Target styles as a guide
+
 <div class="design-system">
   <table class="text-sizes">
     {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline" %}
