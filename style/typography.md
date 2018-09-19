@@ -49,7 +49,7 @@ Gotham is the standard typeface used by DCI.
 
 <div class="design-system">
   <table class="text-sizes">
-    <tr>
+    <td>
     {% include text_size.liquid weight="Regular"  size="24px" copy="Screen title"     %}
     {% include text_size.liquid weight="Regular"  size="20px" copy="service title"    %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="Reference number" %}
@@ -61,8 +61,8 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Regular"  size="12px" copy="Body 3"           %}
     {% include text_size.liquid weight="Regular"  size="11px" copy="Body 4"           %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="Button"           %}
-  </tr>
-  <tr>
+  </td>
+  <td>
     {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline" %}
     {% include text_size.liquid weight="Regular"  size="20px" copy="H2 Headline" %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="H3 Headline" %}
@@ -74,8 +74,8 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Regular"  size="12px" copy="Body 3"      %}
     {% include text_size.liquid weight="Regular"  size="11px" copy="Body 4"      %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="Button"      %}
-  </tr>
-    <tr>
+  </td>
+    <td>
     {% include text_size.liquid weight="Regular"  size="24px" copy="H1 Headline" %}
     {% include text_size.liquid weight="Regular"  size="20px" copy="H2 Headline" %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="H3 Headline" %}
@@ -87,7 +87,7 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Regular"  size="12px" copy="Body 3"      %}
     {% include text_size.liquid weight="Regular"  size="11px" copy="Body 4"      %}
     {% include text_size.liquid weight="Bold"     size="20px" copy="Button"      %}
-  </tr>
+  </td>
   </table>
 </div>
 
