@@ -6,6 +6,7 @@
   subsections:
     - link: /style/typography
     - link: /style/colours
+    - link: /style/layout
 - title: Components
   subsections:
     - link: /components/input-fields
