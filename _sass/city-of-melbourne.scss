@@ -6,6 +6,7 @@
 @import "dci-colours";
 @import "dci-typography";
 @import "dci-buttons";
+@import "dci-inputs";
 
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
@@ -16,16 +17,9 @@ html, body {
     overflow-y: hidden;
 }
 
-body {
-  margin: 0;
-}
-
-//h5 { }
-//h6 { }
-
 nav.navbar {
   background-color: $color-carbon-black;
-  height: $topnavbar-height;
+  height: $topnavbar-height;  
 }
 
 .navbar-item.brand-text {
@@ -40,6 +34,7 @@ nav.navbar {
 .content-columns {
   height: 100%;
   overflow-y: hidden;
+  margin-top: 10px !important;
 }
 
 .menu,
@@ -51,17 +46,19 @@ nav.navbar {
 .main-container {
   background-color: $color-white;
   padding: 0 2em 2em 2em;
-  border: 1px solid #d5dce1;
+  border: 1px solid $color-silver-gray;
+  margin-right: 10px
 }
 
 .menu {
 	background-color: $color-silver-gray;
-    margin: 10px 10px 0 0 !important;
-    ul{
-      list-style: none;
-       margin: 0;
-       padding: 0;
-    }
+  margin-right: 10px !important;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .menu-container {
@@ -159,7 +156,7 @@ nav.navbar {
     border-top: 0; 
     background: $color-white; 
     box-shadow: -1px 1px 3px rgba(0,0,0,.1);
-    width: auto;
+    width: 300px;
     
     /* core styles should not be changed */
     position: absolute;
