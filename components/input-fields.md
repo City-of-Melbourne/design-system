@@ -10,6 +10,26 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 ### Input and error
 ![](img/Components_text_input_single_line.png) 
 
+<div class="dci">
+
+  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
+  
+  <input type="text" id="test" class="dci-input-text" name="query">
+    
+
+  
+  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
+ 
+  
+    <input type="text" id="test" class="dci-input-text in-error" name="query">
+    <span style="color:#e50e56;display:block;font-weight: 400;" >You must provide your email address or mobile number</span>
+    
+
+  
+
+</div>
+  
+
 ### What it does 
 - Captures text data, un-formatted.
 - Displays error text upon validation rules not met when mandatory and marked as (required)

@@ -1,0 +1,27 @@
+
+/* Content blocks. */
+.content-block-standard {
+    margin-bottom: 20px;
+}
+
+.content-block-long {
+    margin-bottom: 30px;
+}
+
+.content-block-longer {
+    margin-bottom: 40px;
+}
+
+/* Fullscreen vs non-fullscreen. */
+#Fullscreen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#Fullscreen .fullscreen-sub-container {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
