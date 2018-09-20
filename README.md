@@ -25,7 +25,7 @@ Make the current design style guide (system) open source.
 
 - [x] Static version of the current style guide from a html dump of confluence
 - [x] Generate site form markdown version of the documents
-- [ ] Make components live (doing)
+- [ ] Make components live 👈 doing
 - [ ] Create a front-end framework based on the design system
 - [ ] Create starter packs that allows people to get up and running quickly
 
@@ -37,4 +37,3 @@ Make the current design style guide (system) open source.
 - Reference the internal img folder only in order to retrieve image files. Don’t put the entire location in there. E.g. /img/image.png is correct, and /design-system/components/img/image.png will not work.
 - Avoid tables at all costs. If you really, really have to, refer to use github’s markdown style for it, and you’ll probably have to get a dev to create a style for the website.
 - Give a useful description to your commit, for version control.
-
