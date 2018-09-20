@@ -17,13 +17,6 @@ html, body {
     overflow-y: hidden;
 }
 
-body {
-  margin: 0;
-}
-
-//h5 { }
-//h6 { }
-
 nav.navbar {
   background-color: $color-carbon-black;
   height: $topnavbar-height;  
@@ -41,6 +34,7 @@ nav.navbar {
 .content-columns {
   height: 100%;
   overflow-y: hidden;
+  margin-top: 10px !important;
 }
 
 .menu,
@@ -57,13 +51,13 @@ nav.navbar {
 
 .menu {
 	background-color: $color-silver-gray;
-    margin: 10px 10px 0 0 !important;
-    ul{
-      list-style: none;
-       margin: 0;
-       padding: 0;
-    }
-  
+  margin-right: 10px !important;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .menu-container {
