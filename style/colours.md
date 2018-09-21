@@ -18,10 +18,10 @@ Here you'll find both the brand guideline standard colours, as well as colours t
 ### Background colours
 
 <div class="design-system">
-  {% include colour_chip.liquid name="TODO: name" hex="#F8ECCE" rgb="248,236,206" %}
-  {% include colour_chip.liquid name="TODO: name" hex="#FACDB2" rgb="250,205,178" %}
-  {% include colour_chip.liquid name="TODO: name" hex="#E1ECC6" rgb="225,236,198" %}
-  {% include colour_chip.liquid name="TODO: name" hex="#CBE3EF" rgb="203,227,239" %}
+  {% include colour_chip.liquid name="Yellow" hex="#F8ECCE" rgb="248,236,206" %}
+  {% include colour_chip.liquid name="Orange" hex="#FACDB2" rgb="250,205,178" %}
+  {% include colour_chip.liquid name="Green" hex="#E1ECC6" rgb="225,236,198" %}
+  {% include colour_chip.liquid name="Blue (light)" hex="#CBE3EF" rgb="203,227,239" %}
 </div>
 
 ### Greyscale colours
