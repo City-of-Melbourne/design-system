@@ -47,7 +47,7 @@ fieldset {
 }
 
 .dci-checkboxes label {
-    display: block !important;
+    display: block;
     font-weight: 400;
     width: auto;
     margin-left: 6px;
@@ -77,7 +77,7 @@ fieldset {
 }
 
 .dci-radiobuttons label {
-    display: block !important;
+    display: block ;
     font-weight: $dci-font-weight-regular;
     width: auto;
     margin-left: 30px;
@@ -101,6 +101,12 @@ fieldset {
     line-height: 1.25;
 }
 
+/*  Validation labels */
 
+.dci-validation.in-error{ 
+  
+  color: $color-primary-red;
+    
+}
 
 

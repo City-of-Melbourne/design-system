@@ -9,14 +9,11 @@ $dci-font-size-medium:       16px;
 $dci-font-size-small:        14px;
 $dci-font-size-extra-small:  12px;
 $dci-font-size-tiny:         11px;
-
-.dci {
-  //  Default font style
-  * {
-    color: $color-carbon-black;
+ //  Default font style   
+.dci {  
     font-size: $dci-font-size-medium;
     font-weight: $dci-font-weight-regular;
-  }
+ 
 
   .font-regular {
     font-weight: $dci-font-weight-regular;
