@@ -1,19 +1,21 @@
 - title: DCI DESIGN SYSTEM
   subsections:        
-    - link: /design-system/principles
-    - link: /design-system/design-debt    
+    - link: /design-system/principles      
 - title: Style
   subsections:
     - link: /style/typography
     - link: /style/colours
     - link: /style/layout
+    - link: /style/icons   
 - title: Components
   subsections:
     - link: /components/input-fields
     - link: /components/buttons
     - link: /components/text-links
     - link: /components/global-elements
-    - link: /components/activity-indicators
+    - link: /components/attachments
+    - link: /components/accordion  
+    - link: /components/notification-box  
 - title: Patterns
   subsections:
     - link: /patterns/location-map
@@ -37,3 +39,4 @@
   subsections:
     - link: /resources/dci-examples
     - link: /resources/status
+    - link: /design-system/design-debt  

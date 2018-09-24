@@ -14,34 +14,19 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 
 <div class="dci">
-
-
-  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>  
-  <input type="text"  class="dci-input-text" >
-  
     <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-    <input type="text"  class="dci-input-text in-error" >
-    <span  class="dci-validation in-error">Error message appears on validation</span>
-    
+    <input type="text" class="dci-input-text">
+    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
+    <input type="text" class="dci-input-text in-error">
+    <span class="dci-validation in-error">Error message appears on validation</span>
 </div>
   
-
 <div class="dci">
-
-  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-  
-  <input type="text" id="test" class="dci-input-text" name="query">
-    
-
-  
-  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
- 
-  
+    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
+    <input type="text" id="test" class="dci-input-text" name="query">
+    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
     <input type="text" id="test" class="dci-input-text in-error" name="query">
-    <span style="color:#e50e56;display:block;font-weight: 400;" >You must provide your email address or mobile number</span>
-    
-
-  
+    <span style="color:#e50e56;display:block;font-weight: 400;">You must provide your email address or mobile number</span>
 
 </div>
   
@@ -69,8 +54,8 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 ### Input
 <div class="dci">
-  <label class="font-bold"> Do you have any further information to help us action your request? </label>   
-  <textarea  class="dci-input-text" name="query" rows="15"></textarea> 
+    <label class="font-bold"> Do you have any further information to help us action your request? </label>
+    <textarea class="dci-input-text" name="query" rows="15"></textarea>
 </div>
 
 ### Error
@@ -85,28 +70,28 @@ TODO
 
 
 <div class="dci">
-    <fieldset class="dci-radiobuttons"> 
-      <legend > 
-          <span class="font-bold"> Is the rubbish in a park?</span>
-          <span class="font-regular">(required)</span>
-      </legend>   
-              <div class="dci-radiobutton"> <input type="radio"><label>Yes</label></div>
-              <div class="dci-radiobutton"> <input type="radio"><label >No</label> </div>      
+    <fieldset class="dci-radiobuttons">
+        <legend>
+            <span class="font-bold"> Is the rubbish in a park?</span>
+            <span class="font-regular">(required)</span>
+        </legend>
+        <div class="dci-radiobutton"> <input type="radio"><label>Yes</label></div>
+        <div class="dci-radiobutton"> <input type="radio"><label>No</label> </div>
     </fieldset>
 </div>
 
 ### Error
 
 <div class="dci">
-<fieldset class="dci-radiobuttons"> 
-  <legend > 
-      <span class="font-bold"> Is the rubbish in a park?</span>
-      <span class="font-regular">(required)</span>
-  </legend>   
-          <div class="dci-radiobutton"> <input type="radio"><label>Yes</label></div>
-          <div class="dci-radiobutton"> <input type="radio"><label >No</label> </div> 
-          <span class="dci-validation in-error" >Please select an option</span>
-</fieldset>
+    <fieldset class="dci-radiobuttons">
+        <legend>
+            <span class="font-bold"> Is the rubbish in a park?</span>
+            <span class="font-regular">(required)</span>
+        </legend>
+        <div class="dci-radiobutton"> <input type="radio"><label>Yes</label></div>
+        <div class="dci-radiobutton"> <input type="radio"><label>No</label> </div>
+        <span class="dci-validation in-error">Please select an option</span>
+    </fieldset>
 </div>
 
 
@@ -116,37 +101,41 @@ TODO
 
 ### Input
 <div class="dci">
-<fieldset class="dci-checkboxes"> 
-  <legend > 
-      <span class="font-bold"> You cant select more than one answer. If you're unsure,please select other?</span>
-      <span class="font-regular">(required)</span>
-  </legend>   
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Bags of rubbish </label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Mattress(es)</label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Hard waste, for example furniture or electrical appliances </label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Cardboard boxes</label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Construction waste</label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Other</label></div>
-                    
-</fieldset>
+    <fieldset class="dci-checkboxes">
+        <legend>
+            <span class="font-bold"> You cant select more than one answer. If you're unsure,please select other?</span>
+            <span class="font-regular">(required)</span>
+        </legend>
+        <div class="dci-checkbox"><input type="checkbox"><label>Bags of rubbish </label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Mattress(es)</label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Hard waste, for example furniture or electrical
+                appliances </label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Cardboard boxes</label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Construction waste</label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Other</label></div>
+    </fieldset>
 </div>
 
 ### Error
 
 <div class="dci">
-<fieldset class="dci-checkboxes"> 
-  <legend > 
-      <span class="font-bold"> You cant select more than one answer. If you're unsure,please select other?</span>
-      <span class="font-regular">(required)</span>
-  </legend>   
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Bags of rubbish </label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Mattress(es)</label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Hard waste, for example furniture or electrical appliances </label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Cardboard boxes</label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Construction waste</label></div>
-          <div class="dci-checkbox"><input  type="checkbox" ><label>Other</label></div>
-          
-          <span class="dci-validation in-error" >Please select an option</span>
-</fieldset>
+    <fieldset class="dci-checkboxes">
+        <legend>
+            <span class="font-bold"> You cant select more than one answer. If you're unsure,please select other?</span>
+            <span class="font-regular">(required)</span>
+        </legend>
+        <div class="dci-checkbox"><input type="checkbox"><label>Bags of rubbish </label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Mattress(es)</label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Hard waste, for example furniture or electrical
+                appliances </label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Cardboard boxes</label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Construction waste</label></div>
+        <div class="dci-checkbox"><input type="checkbox"><label>Other</label></div>
+        <span class="dci-validation in-error">Please select an option</span>
+    </fieldset>
 </div>
+
+## Single line Autocomplete
+
+TODO: Add Description
 
