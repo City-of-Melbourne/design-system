@@ -1,8 +1,70 @@
-.dci-font-weight-regular {
-  font-weight: 400;
-}
+// Weights
+$dci-font-weight-regular: 400;
+$dci-font-weight-bold:    700;
 
-.dci-font-weight-bold {
-  font-weight: 700;
-}
+// Sizes
+$dci-font-size-extra-large:  24px;
+$dci-font-size-large:        20px;
+$dci-font-size-medium:       16px;
+$dci-font-size-small:        14px;
+$dci-font-size-extra-small:  12px;
+$dci-font-size-tiny:         11px;
+ //  Default font style   
+.dci {  
+    font-size: $dci-font-size-medium;
+    font-weight: $dci-font-weight-regular;
+ 
 
+  .font-regular {
+    font-weight: $dci-font-weight-regular;
+  }
+
+  .font-bold {
+    font-weight: $dci-font-weight-bold;
+  }
+
+  .font-italic {
+    font-style: italic;
+  }
+
+  .h1 {
+    font-size: $dci-font-size-extra-large;
+    font-weight: $dci-font-weight-regular;
+  }
+
+  .h2 {
+    font-size: $dci-font-size-large;
+    font-weight: $dci-font-weight-regular;
+  }
+
+  .h3 {
+    font-size: $dci-font-size-large;
+    font-weight: $dci-font-weight-bold;
+  }
+
+  .subtitle-1 {
+    font-size: $dci-font-size-medium;
+    font-weight: $dci-font-weight-bold;
+  }
+
+  .subtitle-2 {
+    font-size: $dci-font-size-small;
+    font-weight: $dci-font-weight-bold;
+  }
+
+  .body-1 {
+    font-size: $dci-font-size-medium;
+  }
+
+  .body-2 {
+    font-size: $dci-font-size-small;
+  }
+
+  .body-3 {
+    font-size: $dci-font-size-extra-small;
+  }
+
+  .body-4 {
+    font-size: $dci-font-size-tiny;
+  }
+}

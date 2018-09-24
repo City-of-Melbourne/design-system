@@ -25,16 +25,16 @@ Make the current design style guide (system) open source.
 
 - [x] Static version of the current style guide from a html dump of confluence
 - [x] Generate site form markdown version of the documents
-- [ ] Make components live (doing)
+- [ ] Make components live 👈 doing
 - [ ] Create a front-end framework based on the design system
 - [ ] Create starter packs that allows people to get up and running quickly
 
 
 ## Tips for updating the website
 
+- You need to update the content with markdown, refer to [Github's markdown guide](https://guides.github.com/features/mastering-markdown/) for this.
 - It takes 3-10 seconds for the code to generate and update from markdown to the HTML site, so you’ll need some patience to see changes!
 - Make sure to keep the “layout” and “title” on every page.
 - Reference the internal img folder only in order to retrieve image files. Don’t put the entire location in there. E.g. /img/image.png is correct, and /design-system/components/img/image.png will not work.
 - Avoid tables at all costs. If you really, really have to, refer to use github’s markdown style for it, and you’ll probably have to get a dev to create a style for the website.
-- Give a useful description to your commit, for version control.
-
+- Give a useful description to your commit, for version control e.g. if you change the size of the H1 to 20px, say "Changed H1 to 20px". This makes it easier to see when you changed things, and what you did.

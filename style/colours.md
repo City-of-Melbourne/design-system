@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Colours
+id: colours
+status_content: ⚠️
+status_live: ✅
+status_comment: Colours need names
 ---
 
 Here you'll find both the brand guideline standard colours, as well as colours that have been found across the site, that probably need review.

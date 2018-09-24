@@ -1,12 +1,16 @@
 @import url('https://www.melbourne.vic.gov.au/system/fonts/507562/6077FCBC25F113DD6.css');
 @import "bulma/sass/utilities/_all";
 @import "bulma/sass/elements/container";
+@import "bulma/sass/elements/table";
 @import "bulma/sass/components/navbar";
 @import "bulma/sass/grid/columns";
 @import "dci-colours";
+@import "design-system";
 @import "dci-typography";
 @import "dci-buttons";
 @import "dci-inputs";
+
+
 
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
@@ -15,14 +19,8 @@ html, body {
     color: $color-carbon-black;
     line-height: 1.5;
     overflow-y: hidden;
+    margin: 0;
 }
-
-body {
-  margin: 0;
-}
-
-//h5 { }
-//h6 { }
 
 nav.navbar {
   background-color: $color-carbon-black;
@@ -41,6 +39,7 @@ nav.navbar {
 .content-columns {
   height: 100%;
   overflow-y: hidden;
+  margin-top: 10px !important;
 }
 
 .menu,
@@ -52,18 +51,19 @@ nav.navbar {
 .main-container {
   background-color: $color-white;
   padding: 0 2em 2em 2em;
-  border: 1px solid #d5dce1;
+  border: 1px solid $color-silver-gray;
+  margin-right: 10px
 }
 
 .menu {
 	background-color: $color-silver-gray;
-    margin: 10px 10px 0 0 !important;
-    ul{
-      list-style: none;
-       margin: 0;
-       padding: 0;
-    }
-  
+  margin-right: 10px !important;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .menu-container {
@@ -153,6 +153,7 @@ nav.navbar {
     max-width: 100%;
   }
 }
+
 // auto complete
   .autocomplete-suggestions {
     text-align: left; 
@@ -198,58 +199,3 @@ nav.navbar {
   }
 }
 
-.markdown .design-system * {
-  // reset stuff for html within markdown
-  margin: 0; padding: 0; border: 0; box-sizing: border-box; line-height: 1.2;
-}
-
-// live examples
-.design-system {
-  .colour-chip {
-    display: inline-block;
-    width: 160px;
-    margin: 1em 1em 1em 0;
-    border-radius: 4px;
-    border: 1px solid $color-silver-gray;
-    overflow: hidden;
-
-    .swatch {
-      height: 100px;
-      width: auto;
-    }
-
-    .name,
-    .value {
-      margin: 0.5em;
-    }
-
-    .name {
-      color: $color-vanta-black;
-      font-weight: bold;
-    }
-
-    .value {
-      color: $color-medium-gray;
-    }
-  }
-
-  .font-example {
-    font-size: 20px;
-    color: $color-medium-gray;
-    margin-bottom: 0.5em;
-  }
-
-  .text-size {
-    padding-bottom: 14px;
-  }
-
-  .text-size__spec,
-  .text-size__example {
-    padding: 14px;
-  }
-
-  .text-size__spec {
-    font-size: 12px;
-    text-align: right;
-  }
-}
