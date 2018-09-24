@@ -1,7 +1,51 @@
-.dci-input-text{     
-    padding: 0.5em;
+/* input text. */
+.dci-input-text{ 
+  
     width: 100%;
+    padding: 0 10px;
+    color: $color-gray;
+    font-weight: 400;
+    margin: 10px 0;
+    height: 38px;
+    border: 1px solid $color-gray;  
+}
+.dci-input-text:hover{
+  border: 1px solid $color-primary-blue;  
+}
+
+.dci-input-text.in-error{   
+    
+    border: 1px solid $color-primary-red;
+  
+}
+.dci-input-text.in-error{   
+   
+    border: 1px solid $color-primary-red;
+  
 }
 .dci-input-text:focus{
     outline: 1px dotted $color-carbon-black ;
   }
+
+/* Dropdown. */
+
+
+/* Checkbox. */
+
+.dci-checkbox {
+    float: left;
+    margin-top: 1px;
+    margin-left: 0;
+}
+
+/* Radio buttons. */
+
+.dci-radiobutton  {
+    float: left;
+    margin-top: 1px;
+}
+
+
+
+
+

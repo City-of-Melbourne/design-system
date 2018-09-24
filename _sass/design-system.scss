@@ -1,0 +1,52 @@
+
+
+// live examples
+.design-system {
+  .colour-chip {
+    display: inline-block;
+    width: 160px;
+    margin: 1em 1em 1em 0;
+    border-radius: 4px;
+    border: 1px solid $color-silver-gray;
+    overflow: hidden;
+
+    .swatch {
+      height: 100px;
+      width: auto;
+    }
+
+    .name,
+    .value {
+      margin: 0.5em;
+    }
+
+    .name {
+      color: $color-vanta-black;
+      font-weight: bold;
+    }
+
+    .value {
+      color: $color-medium-gray;
+    }
+  }
+
+  .font-example {
+    font-size: 20px;
+    color: $color-medium-gray;
+    margin-bottom: 0.5em;
+  }
+
+  .text-size {
+    padding-bottom: 14px;
+  }
+
+  .text-size__spec,
+  .text-size__example {
+    padding: 14px;
+  }
+
+  .text-size__spec {
+    font-size: 12px;
+    text-align: right;
+  }
+}
