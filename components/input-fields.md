@@ -12,21 +12,13 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 <div class="dci">
 
-  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-  
+  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>  
   <input type="text" id="test" class="dci-input-text" name="query">
-    
-
   
-  <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
- 
-  
+    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
     <input type="text" id="test" class="dci-input-text in-error" name="query">
-    <span style="color:#e50e56;display:block;font-weight: 400;" >You must provide your email address or mobile number</span>
+    <span  class="body-1" style="color:#E50E56"   >You must provide your email address or mobile number</span>
     
-
-  
-
 </div>
   
 
@@ -53,6 +45,11 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 ### Input
 ![](img/multiline_text_field.png)  
+
+<div class="dci">
+  <label class="font-bold"> Do you have any further information to help us action your request? </label>   
+  <input type="text" id="test" class="dci-input-text" name="query">    
+</div>
 
 ### Error
 ## Dropdown list - selection capture
