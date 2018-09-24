@@ -33,3 +33,6 @@
     - link: /patterns/tracking-status  
     - link: /patterns/view-your-fine 
     - link: /patterns/opt-updates
+- title: Resources
+  subsections:
+    - link: /resources/dci-examples
