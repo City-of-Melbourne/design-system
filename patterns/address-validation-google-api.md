@@ -1,38 +1,89 @@
 ---
 layout: default
-title: Address validation + Google API
+title: Address validation
 ---
 
-## Address - Google match method
+## Address validation 
 
-### 1.Enter a location typing an address
+### What is it? 
+__Captures customers address using a specific API;__ <br>
 
-Customer is presented with option to provide a known address or location.
+- Sensi API - used for postal address capture
+- Weave API - used for CoM property address
+- Google API - fallback API when above not available
 
-![](img/address_vali_google1.png)
 
-### 2.Type and/or select auto-complete 
+### How does this template work? 
 
-On focusing on the 'Or type an address' input field the google autocomplete address api is fired and the standard interaction occurs; Drop down list of address matches are displayed.
-The customer is able to select one of the matches from the list or continue typing their own address.
+## On load <br> 
+One input field is displayed.
+This is because this module can be combined with others, which would create longer form fields to scan.
 
-![](img/address_vali_google2.png)
+![](img/address_start.png)
 
-### 3.Confirm typed address
 
-Once an address value has been validated by the api then the 'Confirm' button becomes active and is updated to blue to alert the customer then can continue.
+## On interaction - matched address value
+Addresses matching in drop down list. <br> 
+Customer can select an address from this list.
 
-![](img/address_vali_google3.png)
+![](img/address_matches.png)
 
-### 4.Add location detail
 
-This step serves as a check point to review the address they have provided and an opportunity to provide additional written information about the address. 
+## On interaction - no matched address value
 
-![](img/address_vali_google4.png)
+__No address matched__ <br>
 
-### 5.Edit typed address
+Customer types 5 chars or more:
 
-Selecting 'Edit' opens the address value in an editable text input field. 
-Upon re-typing the input field functions as google autocomplete address feature (shown in step 2) 
+IF Customer enters an address string
+AND no match is found through the API
+THEN 'Enter address manually' link is displayed only
+AND customer can select this and display valid address 
 
-![](img/address_vali_google5.png)
+![](img/address_no_match.png)
+
+
+
+__API unavailable__ <br>
+
+Scenario 1
+
+Customer types 5 chars or more:
+
+IF Customer enters an address string
+AND loses focus of address field
+THEN address fields expand
+AND address data string is cleared
+AND Step 4 is displayed (via expand transition)
+
+
+Scenario 2
+
+Customer types 5 chars + address string...
+
+IF Customer enters an address string (no match)
+AND hits send/next button
+OR Hits enter key
+THEN address fields expand
+AND address data string is cleared
+AND validation rules occur
+
+![](img/address_no_match.png)
+
+
+__On selection of matched address__ <br>
+
+Full fields display as read only. 
+This is because customers were editing address and invalidating the data. 
+
+Choose another address - goes back to 'On load' (see above)
+
+
+__Enter address manually__ <br> 
+Clears fields and allows data input 
+
+![](img/address_enter_manually.png)
+
+
+
+
