@@ -1,0 +1,28 @@
+<table class="table is-fullwidth" style="border-spacing: 0;">
+  <thead>
+    <tr>
+      <th>Section</th>
+      <th style="text-align:center;">Content</th>
+      <th style="text-align:center;">Live</th>
+      <th>Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for section in site.data.sections %}
+      {% for sub in section.subsections %}
+        {% if sub.link contains 'components' or sub.link contains 'style' or sub.link contains 'patterns'  %}
+           {% for p in site.pages %}
+             {% if p.url contains sub.link %}
+               <tr>
+                 <td><a href="{{sub.link}}">{{sub.link}}</a></td>
+                 <td style="text-align:center;">{{p.status_content}}</td>
+                 <td style="text-align:center;">{{p.status_live}}</td>
+                 <td>{{p.status_comment}}</td>
+               </tr>
+             {% endif%}
+           {% endfor %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>
