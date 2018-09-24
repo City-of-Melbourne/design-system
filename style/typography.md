@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Typography
+status_content: ⚠️
+status_live: ✅
+status_comment: Missing Line Height, Text colours? master guide reference.
 ---
 
 Gotham is the standard typeface used by DCI.
