@@ -4,9 +4,12 @@
 @import "bulma/sass/components/navbar";
 @import "bulma/sass/grid/columns";
 @import "dci-colours";
+@import "design-system";
 @import "dci-typography";
 @import "dci-buttons";
 @import "dci-inputs";
+
+
 
 html, body {
     font-family: 'Gotham SSm A', 'Gotham SSm B', 'Arial';
@@ -149,6 +152,7 @@ nav.navbar {
     max-width: 100%;
   }
 }
+
 // auto complete
   .autocomplete-suggestions {
     text-align: left; 
@@ -194,58 +198,3 @@ nav.navbar {
   }
 }
 
-.markdown .design-system * {
-  // reset stuff for html within markdown
-  margin: 0; padding: 0; border: 0; box-sizing: border-box; line-height: 1.2;
-}
-
-// live examples
-.design-system {
-  .colour-chip {
-    display: inline-block;
-    width: 160px;
-    margin: 1em 1em 1em 0;
-    border-radius: 4px;
-    border: 1px solid $color-silver-gray;
-    overflow: hidden;
-
-    .swatch {
-      height: 100px;
-      width: auto;
-    }
-
-    .name,
-    .value {
-      margin: 0.5em;
-    }
-
-    .name {
-      color: $color-vanta-black;
-      font-weight: bold;
-    }
-
-    .value {
-      color: $color-medium-gray;
-    }
-  }
-
-  .font-example {
-    font-size: 20px;
-    color: $color-medium-gray;
-    margin-bottom: 0.5em;
-  }
-
-  .text-size {
-    padding-bottom: 14px;
-  }
-
-  .text-size__spec,
-  .text-size__example {
-    padding: 14px;
-  }
-
-  .text-size__spec {
-    font-size: 12px;
-    text-align: right;
-  }
-}
