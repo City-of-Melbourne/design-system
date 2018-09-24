@@ -15,7 +15,8 @@
     - link: /components/global-elements
     - link: /components/attachments
     - link: /components/accordion  
-    - link: /components/notification-box  
+    - link: /components/green-box
+    - link: /components/divider
 - title: Patterns
   subsections:
     - link: /patterns/location-map
