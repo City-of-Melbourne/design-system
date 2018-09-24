@@ -29,22 +29,77 @@
 
 /* Dropdown. */
 
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
 
 /* Checkbox. */
 
-.dci-checkbox {
+.dci-checkboxes legend {
+    font-size: 100%;
+    font-weight: 700;
+    margin-bottom: 25px;
+    border-bottom: 0;
+}
+
+.dci-checkboxes label {
+    display: block !important;
+    font-weight: 400;
+    width: auto;
+    margin-left: 6px;
+}
+
+.dci-checkboxes input[type=checkbox] {
     float: left;
     margin-top: 1px;
     margin-left: 0;
 }
 
+.dci-checkboxes .checkbox {
+    margin-bottom: 22px;
+}
+
 /* Radio buttons. */
 
-.dci-radiobutton  {
+.dci-radiobuttons .radio-button {
+    margin-bottom: 22px;
+}
+
+.dci-radiobuttons legend {
+    font-size: 100%;
+    font-weight: $dci-font-weight-bold;
+    margin-bottom: 25px;
+    border-bottom: 0;
+}
+
+.dci-radiobuttons label {
+    display: block !important;
+    font-weight: $dci-font-weight-regular;
+    width: auto;
+    margin-left: 30px;
+}
+
+.dci-radiobuttons input[type=radio] {
     float: left;
     margin-top: 1px;
 }
 
+.dci-radiobuttons .radio-button {
+    margin-bottom: 22px;
+}
+
+.dci-radiobuttons .radio-button-extra-details {
+    display: block;
+}
+
+.dci-radiobuttons .radio-button-accordion-details {
+    display: none;
+    line-height: 1.25;
+}
 
 
 
