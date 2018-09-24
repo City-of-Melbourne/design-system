@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Input Fields
+
 ---
 
 Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | __Mobile__ - Input displays at width: 300x, height: 38px;
@@ -12,12 +13,13 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 <div class="dci">
 
+
   <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>  
-  <input type="text"  class="dci-input-text" name="query">
+  <input type="text"  class="dci-input-text" >
   
     <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-    <input type="text"  class="dci-input-text in-error" name="query">
-    <span  style="color:#E50E56">Error message appears on validation</span>
+    <input type="text"  class="dci-input-text in-error" >
+    <span  class="dci-validation in-error">Error message appears on validation</span>
     
 </div>
   
@@ -51,6 +53,7 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 ### Error
 ## Dropdown list - selection capture
+TODO
 ### What it does
 ### Input
 ### Error
@@ -80,7 +83,7 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
   </legend>   
           <div class="dci-radiobutton"> <input type="radio"><label>Yes</label></div>
           <div class="dci-radiobutton"> <input type="radio"><label >No</label> </div> 
-          <span style="color:#E50E56" >Please select an option</span>
+          <span class="dci-validation in-error" >Please select an option</span>
 </fieldset>
 </div>
 
@@ -121,7 +124,7 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
           <div class="dci-checkbox"><input  type="checkbox" ><label>Construction waste</label></div>
           <div class="dci-checkbox"><input  type="checkbox" ><label>Other</label></div>
           
-          <span style="color:#E50E56" >Please select an option</span>
+          <span class="dci-validation in-error" >Please select an option</span>
 </fieldset>
 </div>
 
