@@ -40,8 +40,8 @@ Here you'll find both the brand guideline standard colours, as well as colours t
   {% include colour_chip.liquid name="Grey 6" hex="#F2F3F4" rgb="242,243,244" %}
 </div>
 
-## Other colours in use
+## Other colours in use (extended from original guidelines)
 
 <div class="design-system">
-  {% include colour_chip.liquid name="TODO TBC" hex="#989EAB" rgb="152,158,171" %}
+  {% include colour_chip.liquid name="Grey 4.1" hex="#989EAB" rgb="152,158,171" %}
 </div>
