@@ -31,17 +31,17 @@ Here you'll find both the brand guideline standard colours, as well as colours t
 ### Greyscale range
 
 <div class="design-system">
-  {% include colour_chip.liquid name="Black: name" hex="#000000" rgb="0,0,0"       %}
-  {% include colour_chip.liquid name="Grey 1: name" hex="#080809" rgb="8,8,9"       %}
-  {% include colour_chip.liquid name="Grey 2: name" hex="#23242B" rgb="35,36,43"    %}
-  {% include colour_chip.liquid name="Grey 3: name" hex="#3C404B" rgb="60,64,75"    %}
-  {% include colour_chip.liquid name="Grey 4: name" hex="#5D616C" rgb="93,97,108"   %}
-  {% include colour_chip.liquid name="Grey 5: name" hex="#D4D6DB" rgb="212,214,219" %}
-  {% include colour_chip.liquid name="Grey 6: name" hex="#F2F3F4" rgb="242,243,244" %}
+  {% include colour_chip.liquid name="Black" hex="#000000" rgb="0,0,0"       %}
+  {% include colour_chip.liquid name="Grey 1" hex="#080809" rgb="8,8,9"       %}
+  {% include colour_chip.liquid name="Grey 2" hex="#23242B" rgb="35,36,43"    %}
+  {% include colour_chip.liquid name="Grey 3" hex="#3C404B" rgb="60,64,75"    %}
+  {% include colour_chip.liquid name="Grey 4" hex="#5D616C" rgb="93,97,108"   %}
+  {% include colour_chip.liquid name="Grey 5" hex="#D4D6DB" rgb="212,214,219" %}
+  {% include colour_chip.liquid name="Grey 6" hex="#F2F3F4" rgb="242,243,244" %}
 </div>
 
 ## Other colours in use
 
 <div class="design-system">
-  {% include colour_chip.liquid name="TODO: name" hex="#989EAB" rgb="152,158,171" %}
+  {% include colour_chip.liquid name="TODO TBC" hex="#989EAB" rgb="152,158,171" %}
 </div>
