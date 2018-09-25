@@ -157,6 +157,13 @@ nav.navbar {
     height: auto;
     max-width: 100%;
   }
+
+  a,
+  a:hover,
+  a:visited {
+    color: $color-primary-blue;
+    text-decoration: underline;
+  }
 }
 
 // auto complete
