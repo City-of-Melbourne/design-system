@@ -1,16 +1,42 @@
 
 /* Content blocks. */
-.content-block-standard {
+
+.dci-block-standard {
     margin-bottom: 20px;
 }
 
-.content-block-long {
+.dci-block-long {
     margin-bottom: 30px;
 }
 
-.content-block-longer {
+.dci-block-longer {
     margin-bottom: 40px;
 }
+
+/* Static help box. */
+.static-help-container {
+    border: 1px solid $color-primary-green;
+    padding: 13px;
+    margin-bottom: 32px;
+    line-height: 1.333;
+    background-color:$color-background-green;
+    background-image: url(/components/img/question_mark.png);
+    background-repeat: no-repeat;
+    background-position: top 12px right 13px;
+}
+
+.static-help-heading {
+    color:$color-primary-green;
+    min-height: 30px;
+    padding-bottom: 15px;
+    margin-right: 38px;
+}
+
+.static-help-content {
+    font-size: 14px;
+}
+
+
 
 /* Fullscreen vs non-fullscreen. */
 #Fullscreen {

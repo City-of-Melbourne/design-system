@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Accordions
+status_content: ✅
+status_live: ⚠️
+status_comment: The live example must be  implemented!
 ---
 TODO: Add description
 
@@ -8,12 +11,12 @@ TODO: Add description
 
 Original state:
 
-![Accordion Closed](/patterns/img/accordion_closed.png)
+![Accordion Closed](img/accordion_closed.png)
 
 Additional mouseOver state:
 
-![Accordion Hover](/patterns/img/accordion_hover.png)
+![Accordion Hover](img/accordion_hover.png)
 
 ### Open
 
-![Accordion Open](/patterns/img/accordion_open.png)
+![Accordion Open](img/accordion_open.png)
