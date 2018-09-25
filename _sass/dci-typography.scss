@@ -9,11 +9,11 @@ $dci-font-size-medium:       16px;
 $dci-font-size-small:        14px;
 $dci-font-size-extra-small:  12px;
 $dci-font-size-tiny:         11px;
- //  Default font style   
-.dci {  
+ //  Default font style
+.dci {
     font-size: $dci-font-size-medium;
     font-weight: $dci-font-weight-regular;
- 
+
 
   .font-regular {
     font-weight: $dci-font-weight-regular;
@@ -66,5 +66,24 @@ $dci-font-size-tiny:         11px;
 
   .body-4 {
     font-size: $dci-font-size-tiny;
+  }
+
+  .text-link {
+    color: $color-primary-blue;
+    text-decoration: underline;
+  }
+
+  .text-link--external {
+    text-decoration: none;
+
+    span {
+      text-decoration: underline;
+    }
+
+    i {
+      margin: 0 2px;
+      font-size: 1.4em;
+      vertical-align: middle;
+    }
   }
 }
