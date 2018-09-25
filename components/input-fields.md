@@ -14,22 +14,16 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 
 <div class="dci">
-    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-    <input type="text" class="dci-input-text">
-    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-    <input type="text" class="dci-input-text in-error">
-    <span class="dci-validation in-error">Error message appears on validation</span>
-</div>
-  
-<div class="dci">
-    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-    <input type="text" id="test" class="dci-input-text" name="query">
-    <label class="font-bold"> Label </label> <label class="font-regular">(required)</label>
-    <input type="text" id="test" class="dci-input-text in-error" name="query">
-    <span style="color:#e50e56;display:block;font-weight: 400;">You must provide your email address or mobile number</span>
-
-</div>
-  
+    <div class="dci-block-longer">
+        <label class="font-bold"> What colour is the vehicle? </label> <label class="font-regular">(required)</label>
+        <input type="text" class="dci-input-text">
+    </div>
+    <div class="dci-block-longer">
+        <label class="font-bold"> What colour is the vehicle? </label> <label class="font-regular">(required)</label>
+        <input type="text" id="test" class="dci-input-text in-error" name="query">
+        <span  class="dci-validation in-error">please specify the colour</span>
+    </div>
+</div>  
 
 ### What it does 
 - Captures text data, un-formatted.

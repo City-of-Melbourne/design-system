@@ -2,10 +2,9 @@
 .dci-input-text{ 
   
     width: 100%;
-    padding: 0 10px;
-    color: $color-gray;
-    font-weight: 400;
     margin: 10px 0;
+    color: $color-gray;
+    font-weight: $dci-font-weight-regular;   
     height: 38px;
     border: 1px solid $color-gray;  
 }
@@ -41,14 +40,14 @@ fieldset {
 
 .dci-checkboxes legend {
     font-size: 100%;
-    font-weight: 700;
+    font-weight: $dci-font-weight-bold;
     margin-bottom: 25px;
     border-bottom: 0;
 }
 
 .dci-checkboxes label {
     display: block;
-    font-weight: 400;
+    font-weight: $dci-font-weight-regular;
     width: auto;
     margin-left: 6px;
 }

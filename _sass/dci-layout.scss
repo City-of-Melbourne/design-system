@@ -19,8 +19,7 @@
     padding: 13px;
     margin-bottom: 32px;
     line-height: 1.333;
-    background-color:$color-background-green;
-    background-image: url(/components/img/question_mark.png);
+    background-color:$color-background-green;   
     background-repeat: no-repeat;
     background-position: top 12px right 13px;
 }
@@ -35,9 +34,6 @@
 .static-help-content {
     font-size: 14px;
 }
-
-
-
 /* Fullscreen vs non-fullscreen. */
 #Fullscreen {
     position: absolute;
