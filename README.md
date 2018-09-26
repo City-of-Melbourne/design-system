@@ -12,6 +12,8 @@ See the live website at:
 2. [Benefits](#benefits)
 3. [Road map](#road-map)
 4. [Tips for updating the website](#tips-for-updating-the-website)
+5. [Suggested workflow](#suggested-workflow)
+6. [Updating colours](#updating-colours)
 
 
 ## Goal
@@ -55,3 +57,17 @@ When adding new content, what would probably work best is if you follow these st
 2. Developer refers to the design(s) uploaded to teh design system and coes them.
 3. Once code is ready to be live, replace the images with that code.
 4. Profit.
+
+## Updating colours
+To update the colours:
+
+1. Go to /style/colours.md
+2. Click edit markdown button
+3. Scroll to the correct category for teh colour you want to change/ add e.g. is it a Primary colour?
+4. You will see the following: 
+``
+{% include colour_chip.liquid name="Primary Red"   hex="#E50E56" rgb="0,136,80"   %}
+``
+To change the name that displays, change "name", to change the colour that displays, change the hex or the rgb values.
+5. Save the markdown file with a useful commit title.
+
