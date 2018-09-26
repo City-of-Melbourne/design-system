@@ -1,7 +1,11 @@
+<div>
+  <p>✅  All good here</p>
+  <p>⚠️  Something needs attention</p>
+</div>
 <table class="table is-fullwidth" style="border-spacing: 0;">
   <thead>
     <tr>
-      <th>Section</th>
+      <th style="min-width:360px">Section</th>
       <th style="text-align:center;">Content</th>
       <th style="text-align:center;">Live</th>
       <th>Comment</th>
@@ -14,7 +18,7 @@
            {% for p in site.pages %}
              {% if p.url contains sub.link %}
                <tr>
-                 <td><a href="{{sub.link}}">{{sub.link}}</a></td>
+                 <td><a href="{{sub.link}}">{{sub.link | replace_first: '/' }}</a></td>
                  <td style="text-align:center;">{{p.status_content}}</td>
                  <td style="text-align:center;">{{p.status_live}}</td>
                  <td>{{p.status_comment}}</td>
