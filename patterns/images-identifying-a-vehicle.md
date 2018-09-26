@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Images - Identifying a vehicle
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## What is it?

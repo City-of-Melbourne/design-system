@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Loading and progress indicators
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 TODO: add description

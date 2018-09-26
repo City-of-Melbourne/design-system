@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Error handling
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## Generic form error

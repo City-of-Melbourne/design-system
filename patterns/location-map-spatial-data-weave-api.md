@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Location map + Spatial data (Weave API)
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## What is it?

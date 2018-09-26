@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Confirm and send
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## What is it?

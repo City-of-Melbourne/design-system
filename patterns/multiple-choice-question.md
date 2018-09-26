@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Multiple choice question
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 A question that captures an answer or multiple answers. We need to capture enough information to narrow down to a Salesforce case type (formerly know as SR code) we need to ask questions. We use questions to guide customers to groups of answers that tell us which work area should receive the Salesforce case.

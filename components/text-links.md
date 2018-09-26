@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Text Links
+status_content: ✅
+status_live: ✅
 ---
 
 ### Standard

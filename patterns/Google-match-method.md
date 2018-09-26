@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Google match method
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ### Enter a location typing an address

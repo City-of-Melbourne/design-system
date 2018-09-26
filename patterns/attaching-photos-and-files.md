@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Attaching photos and files
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ### What is it?

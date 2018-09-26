@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Address validation + Weave API
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ### Step 1: On page load

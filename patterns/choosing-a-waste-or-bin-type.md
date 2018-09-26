@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Choosing a waste or bin type
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## What is it?

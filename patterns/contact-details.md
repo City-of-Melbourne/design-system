@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Contact detail capture
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 # Contact detail capture 
 

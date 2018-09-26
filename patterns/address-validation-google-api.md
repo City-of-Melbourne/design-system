@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Address validation
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## What is it? 

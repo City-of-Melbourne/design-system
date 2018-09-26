@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Loading and processing indicators
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 TODO add description

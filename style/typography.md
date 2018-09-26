@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Typography
-status_content: ⚠️
+status_content: ✅
 status_live: ✅
-status_comment: Missing Line Height, Text colours? master guide reference.
 ---
 
 Gotham is the standard typeface used by DCI.
@@ -38,15 +37,3 @@ Gotham is the standard typeface used by DCI.
     {% include text_size.liquid weight="Bold"     size="20px" copy="Button"      class="body-5"     %}
   </table>
 </div>
-
-## Text colours
-
-TODO
-
-## Line Height
-
-TODO
-
-## Reference
-
-TODO: Include a public link to the master guide line (if it exist)

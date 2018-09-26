@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Opt in for updates
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 ## What is it?

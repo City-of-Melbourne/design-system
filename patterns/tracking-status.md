@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Tracking Status
+status_content: ✅
+status_live: ⚠️
+status_comment:
 ---
 
 This content is redundant in current state, further work required to make this content meaningful to customer.

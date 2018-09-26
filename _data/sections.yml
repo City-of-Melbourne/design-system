@@ -39,6 +39,6 @@
     - link: /patterns/opt-updates
 - title: Resources
   subsections:
-    - link: /resources/dci-examples
     - link: /resources/status
+    - link: /resources/dci-examples
     - link: /design-system/design-debt  
