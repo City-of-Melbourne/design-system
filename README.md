@@ -11,7 +11,7 @@ See the live website at:
 1. [Goal](#goal)
 2. [Benefits](#benefits)
 3. [Road map](#road-map)
-4. [Tips for updating the website](#Tips-for-updating-the-website)
+4. [Tips for updating the website](#tips-for-updating-the-website)
 
 
 ## Goal
