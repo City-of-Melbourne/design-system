@@ -3,11 +3,12 @@ layout: default
 title: Layout
 status_content: ✅
 ---
-The first principle for layout is, "mobile first",so wherever possible,content should be stacked, rather than displayed side by side in.
 
+The first principle for layout is, "mobile first", so wherever possible, content should be stacked, rather than displayed side by side in.
 
 ### Single Column layout
-The main content is centrally aligned, with space on either side. The max width for this main content is 355px, and when teh viewpowrt window is less than 768px, it breaks to 300px max width.
+
+The main content is centrally aligned, with space on either side. The max width for this main content is 355px, and when the viewport window is less than 768px, it breaks to 300px max width.
 
 Bootstrap columns aren’t generally utilised in the DCI grid system, as the rule is that all components are stacked vertically. 
 
@@ -18,6 +19,7 @@ Only if content really needs to be shown side-by-side, do we use columns in boot
 ![](img/layout-single-column.jpg)
 
 ### Content + Blocks
+
 <div clas="dci-content-column" style="outline: 2px dashed #244566">
     <div class="dci dci-block-standard" style="outline: 1px dashed #277BB4">
         <label class="font-bold"> Block Standard </label>
@@ -33,9 +35,8 @@ Only if content really needs to be shown side-by-side, do we use columns in boot
     </div>
 </div>
 
-
-
 ### Exception: Column layout
+
 There is an exception to the “mobile first, stacked layout” rule, and that is payment using the Westpac payment gateway. This requires input labels that are aligned to the left of input fields. This is the only time this should be used.
 
 ![](img/layout-two-column.jpg)
