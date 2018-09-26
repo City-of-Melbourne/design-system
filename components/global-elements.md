@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Global elements
+status_content: ✅
+status_live: ⚠️
+status_comment: 
 ---
 
 Welcome to the template page. I've laid out commonly used components so you can just copy this page when you want to create a new page for instance. Or as a reference for components, you know you'll find them here if you need them!
@@ -100,53 +103,3 @@ width: 593.6px;
 -webkit-tap-highlight-color: rgba(0, 0, 0,);
 
 ```
-
-### Green box "Did you know?"
-Informs customer with important service process related information.
-
-![](img/DidYouKnow.png)
-
-```
-background-color: rgb(225, 236, 198);
-background-image: url(https://preprod.services.melbourne.vic.gov.au/images/question_mark.png);
-background-position-x: 13px;
-background-position-y: 12px;
-background-repeat-x: ;
-background-repeat-y: ;
-border-bottom-color: rgb(0, 136, 80);
-border-bottom-style: solid ;
-border-bottom-width: 1px;
-border-image-outset: 0px;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(0, 136, 80);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: rgb(0, 136, 80);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: rgb(0, 136, 80);
-border-top-style: solid;
-border-top-width: 1px;
-box-sizing: border-box;
-color: rgb(51, 51, 51);
-display: block;
-font-family:
-"Gotham SSm A", "Gotham SSm B", Arial, Helvetica, sans-serif;
-font-size: 16px;
-font-weight: 400;
-height: 100.6px;
-line-height: 21.328px;
-margin-bottom: 32px;
-padding-bottom: 13px;
-padding-left: 13px;
-padding-right: 13px;
-padding-top: 13px;
-text-size-adjust: 100%;
-width: 520px;
--webkit-tap-highlight-color: rgba(0, 0, 0,);
-
-```
-
