@@ -49,4 +49,36 @@
     font-size: 12px;
     text-align: right;
   }
+
+  .icon-example-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .icon-example {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 56px;
+    margin: 2em 2em 2em 0;
+  }
+
+  .icon-example__frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 56px;
+  }
+
+  .icon-example__icon {
+    max-width: 48px;
+    max-height: 48px;
+  }
+
+  .icon-example__description {
+    width: 136px;
+    padding: 8px;
+    font-size: $dci-font-size-extra-small;
+  }
 }

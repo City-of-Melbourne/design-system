@@ -1,0 +1,42 @@
+- name: Progress Current
+  path: dci-progress-current.png
+- name: Progress Future
+  path: dci-progress-future.png
+- name: Help Opened
+  path: dci-help-opened.png
+- name: Help Closed
+  path: dci-help-closed.png
+- name: GPS Position
+  path: dci-gps-position.png
+- name: Location Pin
+  path: dci-location-pin.png
+- name: Location Tree
+  path: dci-location-tree.svg
+- name: Checked Yes
+  path: dci-checked-yes.png
+- name: File Upload Thumbnail
+  path: dci-fileupload-thumbnail.png
+- name: File Upload Add
+  path: dci-fileupload-add.png
+- name: File upload Delete
+  path: dci-fileupload-delete.png
+- name: File Upload Error
+  path: dci-fileupload-error.png
+- name: Vehicle Bus
+  path: dci-vehicle-bus.png
+- name: Vehicle Trailer
+  path: dci-vehicle-trailer.png
+- name: Vehicle Truck
+  path: dci-vehicle-truck.png
+- name: Vehicle Van
+  path: dci-vehicle-van.png
+- name: Vehicle Motorcycle
+  path: dci-vehicle-motorcycle.png
+- name: Vehicle Coupe
+  path: dci-vehicle-coupe.png
+- name: Vehicle Ute
+  path: dci-vehicle-ute.png
+- name: Vehicle Wagon
+  path: dci-vehicle-wagon.png
+- name: Vehicle Suv
+  path: dci-vehicle-suv.png

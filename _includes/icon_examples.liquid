@@ -1,0 +1,14 @@
+<div class="design-system">
+  <div class="icon-example-list">
+    {% for icon in site.data.icons %}
+      <div class="icon-example">
+        <div class="icon-example__frame">
+          <img class="icon-example__icon" src="/assets/img/{{ icon.path }}">
+        </div>
+        <div class="icon-example__description">
+          {{ icon.name }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
