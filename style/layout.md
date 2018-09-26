@@ -6,8 +6,11 @@ status_live: ⚠️
 status_comment: 
 ---
 The first principle for layout is, "mobile first",so wherever possible,content should be stacked, rather than displayed side by side in.
+
+
 ### Single Column layout
-The main content is centrally aligned, with space on either side.z
+The main content is centrally aligned, with space on either side. The max width for this main content is 355px, and when teh viewpowrt window is less than 768px, it breaks to 300px max width.
+
 Bootstrap columns aren’t generally utilised in the DCI grid system, as the rule is that all components are stacked vertically. 
 
 ![](img/layout-single-column.jpg)
