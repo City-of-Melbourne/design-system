@@ -35,6 +35,8 @@ Only if content really needs to be shown side-by-side, do we use columns in boot
     </div>
 </div>
 
+
+
 ### Exception: Column layout
 There is an exception to the “mobile first, stacked layout” rule, and that is payment using the Westpac payment gateway. This requires input labels that are aligned to the left of input fields. This is the only time this should be used.
 

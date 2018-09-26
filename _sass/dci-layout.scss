@@ -1,5 +1,3 @@
-
-
 .body-content-wrapper {
     background-color: $color-light-gray;
 }
@@ -122,41 +120,6 @@
     .dci-content-column.dci-content-column-wide legend {
         text-align: left;
     }
-}
-
-.content-column {
-    max-width: 300px;
-    margin: 15px auto 0 auto;
-}
-
-.content-column .content-column-inset {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.page-heading-container + .content-column {
-    margin-top: 49px;
-}
-
-@media (min-width: 768px) {
-
-    .content-column {        
-        max-width: 355px;
-    }
-
-    .content-column .content-column-inset {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .content-column.content-column-wide {
-        max-width: 440px;
-    }
-
-    .content-column.content-column-wide legend {
-        text-align: left;
-    }
-
 }
 
 /* Content blocks. */
