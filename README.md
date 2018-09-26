@@ -6,6 +6,14 @@ See the live website at:
 
 [https://city-of-melbourne.github.io/design-system/](https://city-of-melbourne.github.io/design-system/)
 
+## Index
+
+1. [Goal](#goal)
+2. [Benefits](#benefits)
+3. [Road map](#road-map)
+4. [Tips for updating the website](#Tips-for-updating-the-website)
+
+
 ## Goal
 
 Make the current design style guide (system) open source.
@@ -28,6 +36,7 @@ Make the current design style guide (system) open source.
 - [ ] Make components live 👈 doing
 - [ ] Create a front-end framework based on the design system
 - [ ] Create starter packs that allows people to get up and running quickly
+
 
 
 ## Tips for updating the website
