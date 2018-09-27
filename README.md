@@ -12,6 +12,8 @@ See the live website at:
 2. [Benefits](#benefits)
 3. [Road map](#road-map)
 4. [Tips for updating the website](#tips-for-updating-the-website)
+5. [How to change a section status](#how-to-change-section-status)
+6. [How to manage the menu](#how-to-manage-the-menu)
 5. [Suggested workflow](#suggested-workflow)
 6. [Updating colours](#updating-colours)
 
@@ -49,6 +51,21 @@ Make the current design style guide (system) open source.
 - Reference the internal img folder only in order to retrieve image files. Don’t put the entire location in there. E.g. /img/image.png is correct, and /design-system/components/img/image.png will not work.
 - Avoid tables at all costs. If you really, really have to, refer to use github’s markdown style for it, and you’ll probably have to get a dev to create a style for the website.
 - Give a useful description to your commit, for version control e.g. if you change the size of the H1 to 20px, say "Changed H1 to 20px". This makes it easier to see when you changed things, and what you did.
+
+## How to change a section status
+
+In the top of any .md file there is a section with the following attributes:
+- layout: is meant to specify which layout the website is using
+- title: is the title that will displayed in the menu and on the top of te page
+- status_content: is meant to indicate either is complete or something needs attention (✅⚠️) regards content
+- status_live: is meant to indicate either is complete or something needs attention (✅⚠️) regards live examples
+- status_comment: is a free comment space to leave a notes, observations or whatever that should be take into account
+
+Ideally every page that is displayed in the menu must have this properties in order to be displayed in the status page.
+
+## How to manage the menu
+
+The menu is builded using a defined data from YAML file  located in the  _data folder (sections.yml).The file contains the structure that is being displayed on the menu and order as well.
 
 ## Suggested workflow
 
