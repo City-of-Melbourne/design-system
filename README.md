@@ -54,18 +54,18 @@ Make the current design style guide (system) open source.
 
 ## How to change a section status
 
-In the top of any .md file there is a section with the following attributes:
-- layout: is meant to specify which layout the website is using
-- title: is the title that will displayed in the menu and on the top of te page
-- status_content: is meant to indicate either is complete or something needs attention (✅⚠️) regards content
-- status_live: is meant to indicate either is complete or something needs attention (✅⚠️) regards live examples
-- status_comment: is a free comment space to leave a notes, observations or whatever that should be take into account
+At the top of all .md files there is a section with the following attributes:
+- layout: is meant to specify which layout style the website is using.
+- title: is the title that will be displayed in the menu and as teh Header for that page.
+- status_content: is meant to indicate either is complete or something needs attention (✅⚠️) regards content.
+- status_live: is meant to indicate whether all example elements are interactive or still need updating (✅⚠️).
+- status_comment: is a free comment space to leave a notes, observations or whatever that should be taken into account.
 
-Ideally every page that is displayed in the menu must have this properties in order to be displayed in the status page.
+If you don't fill out all of the attributes, it will be less useful, especially on the status page.
 
 ## How to manage the menu
 
-The menu is builded using a defined data from YAML file  located in the  _data folder (sections.yml).The file contains the structure that is being displayed on the menu and order as well.
+The menu is built using defined data from YAML file  located in the  _data folder (sections.yml). The file contains the structure and order that data is displayed in the menu.
 
 ## Suggested workflow
 
