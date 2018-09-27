@@ -2,6 +2,8 @@
 layout: default
 title: Layout
 status_content: ✅
+status_live: ⚠️ 
+status_comment: Live example needs 
 ---
 
 The first principle for layout is, "mobile first", so wherever possible, content should be stacked, rather than displayed side by side in.
