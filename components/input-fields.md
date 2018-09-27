@@ -13,7 +13,6 @@ Browser display: __Desktop__ - Input displays at width: 355px, height: 38px; | _
 
 ### Input and error
 <div clas="dci-content-column">
-
     <div class="dci dci-block-longer">
         <label class="font-bold"> What colour is the vehicle? </label> <label class="font-regular">(required)</label>
         <input type="text" class="dci-input-text">
