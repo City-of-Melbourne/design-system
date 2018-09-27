@@ -69,13 +69,3 @@ Design debt on colouring
     Got it
   </button>
 </div>
-
-## Dev notes
-
-### Reference Sites
-- [https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti](https://dev01.dev.services.melbourne.vic.gov.au/report/graffiti)
-- [https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringementreview](https://dev01.dev.services.melbourne.vic.gov.au/ask/locallaws/infringementreview)
-
-### CSS Pulled form
-- [dev01.dev.services.melbourne.vic.gov.au/css/site.css](dev01.dev.services.melbourne.vic.gov.au/css/site.css)
-- [dev01.dev.services.melbourne.vic.gov.au/css/dci.report.common.css](dev01.dev.services.melbourne.vic.gov.au/css/dci.report.common.css)
