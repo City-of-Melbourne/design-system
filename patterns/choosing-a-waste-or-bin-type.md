@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Choosing a waste or bin type
-status_content: ✅
+status_content: ⚠️
 status_live: ⚠️
-status_comment:
+status_comment: Content is incomplete. Not useful in current form.
 ---
 
 ## What is it?
