@@ -44,7 +44,6 @@ nav.navbar {
 .content-columns {
   height: 100%;
   overflow-y: hidden;
-  margin-top: 10px !important;
 }
 
 .menu,
@@ -62,7 +61,7 @@ nav.navbar {
 
 .menu {
 	background-color: $color-silver-gray;
-  margin-right: 10px !important;
+  margin: 10px 10px 0 0!important;
 
   ul {
     list-style: none;
