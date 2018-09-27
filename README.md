@@ -12,7 +12,7 @@ See the live website at:
 2. [Benefits](#benefits)
 3. [Road map](#road-map)
 4. [Tips for updating the website](#tips-for-updating-the-website)
-5. [How to change a section status](#how-to-change-section-status)
+5. [How to change a section status](#how-to-change-a-section-status)
 6. [How to manage the menu](#how-to-manage-the-menu)
 5. [Suggested workflow](#suggested-workflow)
 6. [Updating colours](#updating-colours)
@@ -56,7 +56,7 @@ Make the current design style guide (system) open source.
 
 At the top of all .md files there is a section with the following attributes:
 - layout: is meant to specify which layout style the website is using.
-- title: is the title that will be displayed in the menu and as teh Header for that page.
+- title: is the title that will be displayed in the menu and as the Header for that page.
 - status_content: is meant to indicate either is complete or something needs attention (✅⚠️) regards content.
 - status_live: is meant to indicate whether all example elements are interactive or still need updating (✅⚠️).
 - status_comment: is a free comment space to leave a notes, observations or whatever that should be taken into account.

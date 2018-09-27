@@ -74,3 +74,29 @@ Only if content really needs to be shown side-by-side, do we use columns in boot
 There is an exception to the “mobile first, stacked layout” rule, and that is payment using the Westpac payment gateway. This requires input labels that are aligned to the left of input fields. This is the only time this should be used.
 
 ![](img/layout-two-column.jpg)
+
+
+### Header Button
+![](img/layout-header-button.jpg)
+
+### Map Pop Up
+![](img/layout-map-popup.jpg)
+
+### Layout no Backgroud
+![](img/layout-no-background.jpg)
+
+### Layout Radio Label
+![](img/layout-radio-label.jpg)
+
+### Layout Upload Images
+![](img/layout-upload-images2.jpg)
+
+### Layout Upload Images
+![](img/layout-many-stacks.jpg)
+
+### Layout Upload Images
+![](img/layout-map.jpg)
+
+
+### Layout Upload Images
+![](img/layout-toggle.jpg)
