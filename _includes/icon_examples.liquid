@@ -3,7 +3,7 @@
     {% for icon in site.data.icons %}
       <div class="icon-example">
         <div class="icon-example__frame">
-          <img class="icon-example__icon" src="/assets/img/{{ icon.path }}">
+          <img class="icon-example__icon" src="{{ "/assets/img/" | append: icon.path | prepend: site.github.url }}">
         </div>
         <div class="icon-example__description">
           {{ icon.name }}
