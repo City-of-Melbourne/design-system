@@ -3,8 +3,7 @@
     {% for icon in site.data.icons %}
       <div class="icon-example">
         <div class="icon-example__frame">
-          <img class="dci-attachment__thumbmail" src="{{ "/assets/img/" | append: "dci-fileupload-thumbnail.png" | prepend: site.github.url }}">
-          <img class="dci-attachment__icon" src="{{ "/assets/img/" | append: "dci-fileupload-add.png" | prepend: site.github.url }}">
+          <img class="icon-example__icon" src="{{ "/assets/img/" | append: icon.path | prepend: site.github.url }}">
         </div>
         <div class="icon-example__description">
           {{ icon.name }}
