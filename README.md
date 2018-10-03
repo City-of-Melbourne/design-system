@@ -6,6 +6,8 @@ See the live website at:
 
 [https://city-of-melbourne.github.io/design-system/](https://city-of-melbourne.github.io/design-system/)
 
+## 🚧 WARNING: this is a Proof of Concept hacked together in 4 weeks 🚧
+
 ## Index
 
 1. [Goal](#goal)
