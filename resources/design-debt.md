@@ -10,7 +10,7 @@ This list is to record the known inconsistencies.
 ## Lower effort items
 
 - Text links - Edit, Create another report, Status tracking, other (check and list)
-- Error messaging - enter/provide, select/choose - terminology - Jacqueline Levan has been given access to wordpress to help DCI manage this content
+- Error messaging - enter/provide, select/choose - terminology
 - Labelling (required) vs (optional) - Illegally dumped rubbish includes an (optional) which we decided to not include
 - Use of grey colour on buttons (between services. See Buttons and links)
 - Submit report page - show location visual info if customer provided location via map - currently shows typed address
